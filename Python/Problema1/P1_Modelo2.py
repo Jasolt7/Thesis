@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Aug 19 14:28:24 2025
+Created on Tue Aug 19 15:57:32 2025
 
 @author: JAPGc
 """
@@ -169,12 +169,11 @@ def shift_resource_usage_numba(resource_usage, delta, original_start, shift):
 def counter_numba(resource_usage, delta, threshold, t):
     duration = delta.shape[0]
     n_rows = threshold.shape[1]
-    count = 0
     for i in range(duration):
         for j in range(n_rows):
             if resource_usage[t + i, j] + delta[i, j] > threshold[0, j]:
-                count += 1
-    return count
+                return 1
+    return 0
 
 @njit
 def earliest_candidate(resource_usage, delta, threshold, start, end, pri1, pri2):
@@ -211,6 +210,26 @@ def earliest_candidate(resource_usage, delta, threshold, start, end, pri1, pri2)
 
         if valid:
             return t
+
+@njit
+def valid_candidates_func(resource_usage, delta, threshold, makespan, start, end, T):
+    valid_candidates = []
+    duration = delta.shape[0]
+    for t in np.arange(start, end - duration + 1):
+        t = int(t)
+        count = counter_numba(resource_usage, delta, threshold, t)
+        if count > 0:
+            continue
+        valid_candidates.append(t)
+    t = min(int(end+1), T-duration)
+    if counter_numba(resource_usage, delta, threshold, t) < 1:
+        valid_candidates.append(t)
+    else: 
+        t = max(int(start-duration), 0)
+        if counter_numba(resource_usage, delta, threshold, t) < 1:
+            valid_candidates.append(t)
+
+    return valid_candidates
 
 @njit
 def get_start_end(Sequence, starting_time, pro_i, rec_lpk, n, max_cols):
@@ -292,16 +311,14 @@ def sa_iteration(S_ik, F_ik, resource_usage, c, pro_i, rec_lpk, rec_max_p, n, n_
     vec_violations = np.count_nonzero(RU_temp > threshold)
     current_cost = makespan + punish * vec_violations
     best_cost = current_cost
-    
+
     accepted = 0
     
     i_it = np.random.randint(n, size=(Lk))
     q_it = np.random.rand(Lk)
-    shift_it = np.random.rand(Lk)
-    start = 0
-    end = T
+    
     average_dif = 0
-        
+    
     for it in range(Lk):
         i = i_it[it]
         # Look up the precomputed pattern and delta for exam i by its type.
@@ -310,11 +327,17 @@ def sa_iteration(S_ik, F_ik, resource_usage, c, pro_i, rec_lpk, rec_max_p, n, n_
         # Get the current boundaries for exam i.
         original_finish = int(F_temp[i])
         original_start = original_finish - delta.shape[0]
-
-        # Choose a shift so that the exam remains within [start, end].
-        shift = int(start + (end + 1 - delta.shape[0] - start) * shift_it[it] - original_start)
         
-        RU_temp = shift_resource_usage_numba(RU_temp, delta, original_start, shift)
+        RU_temp[original_start:original_finish, :] -= delta
+        duration = delta.shape[0]
+        
+        valid_candidates = np.array(valid_candidates_func(RU_temp, delta, threshold, makespan,  start, end, T))
+
+        if valid_candidates.size > 0:
+            start = np.random.choice(valid_candidates)
+        else:
+            start = original_start
+        shift = start - original_start
         
         # Update start and finish times.
         F_temp[i] += shift
@@ -322,12 +345,12 @@ def sa_iteration(S_ik, F_ik, resource_usage, c, pro_i, rec_lpk, rec_max_p, n, n_
         # Insert the exam pattern into the new location.
         new_start = original_start + shift
         new_finish = original_finish + shift
+        RU_temp[new_start:new_finish, :] += delta
         
         start, end = compute_makespan(F_temp, T, pro_i, durations)
         makespan = end - start
-
-        vec_violations = vec_vio(RU_temp, start, end, threshold)
-        alt_cost = makespan + punish * vec_violations
+        
+        alt_cost = makespan
         
         average_dif = average_dif + np.abs((current_cost - alt_cost))
         
@@ -342,8 +365,9 @@ def sa_iteration(S_ik, F_ik, resource_usage, c, pro_i, rec_lpk, rec_max_p, n, n_
 
         else:
             # Rollback the shift.
-            RU_temp = shift_resource_usage_numba(RU_temp, delta, new_start, -shift)
+            RU_temp[new_start:new_finish, :] -= delta
             F_temp[i] -= shift
+            RU_temp[original_start:original_finish, :] += delta
     
     F_last_temp = F_temp.copy()
     F_last_best = F_best.copy()
@@ -358,9 +382,9 @@ def sa_iteration(S_ik, F_ik, resource_usage, c, pro_i, rec_lpk, rec_max_p, n, n_
         F_temp[i] = F_last_temp[i] - (F_ik[i, -1] - F_ik[i, :])
         S_temp[i] = F_temp[i] - rec_lpk[pro_i[i], 1]
         
-        F_best[i, :] = F_last_best[i] - (F_ik[i, -1] - F_ik[i, :])
+        F_best[i] = F_last_best[i] - (F_ik[i, -1] - F_ik[i, :])
         S_best[i] = F_best[i] - rec_lpk[pro_i[i], 1]
-        
+    
     return S_temp, F_temp, current_cost, accepted, RU_temp, S_best, F_best, RU_best, best_cost, average_dif
 
 def initial_temp(pro_i, rec_lpk, rec_max_p, n, n_exams, max_cols, max_rows, T, R, threshold, exam_type_deltas, seed, punish, ratio):
@@ -369,8 +393,10 @@ def initial_temp(pro_i, rec_lpk, rec_max_p, n, n_exams, max_cols, max_rows, T, R
     Sequence = initial_solution(threshold, T, pro_i, rec_lpk, n, max_cols, exam_type_deltas)
     S_ik, F_ik, resource_usage, makespan = define_sequence_LS(Sequence, threshold, T, pro_i, rec_lpk, n, max_cols, exam_type_deltas, 0, T)
     
-    Lk = 100000
+    Lk = 1000
     _, _, _, acc, _, _, _, _, _, average_dif = sa_iteration(S_ik, F_ik, resource_usage, float("inf"), pro_i, rec_lpk, rec_max_p, n, n_exams, max_cols, max_rows, T, R, threshold, exam_type_deltas, seed, Lk, punish)
+    if average_dif < 1:
+        average_dif = 1
     c_in = np.abs((average_dif/Lk)/np.log(ratio))
     return c_in
 
@@ -381,7 +407,7 @@ def SA(pro_i, rec_lpk, rec_max_p, n, n_exams, max_cols, max_rows, T, R, threshol
 
     c = c_in
     best_cost = float('inf')
-    
+
     X_t_ik = np.zeros((T, n, max_cols))
     S_ik = np.zeros((n, max_cols))
     F_ik = np.zeros((n, max_cols))
@@ -400,7 +426,7 @@ def SA(pro_i, rec_lpk, rec_max_p, n, n_exams, max_cols, max_rows, T, R, threshol
             for t_prime in range(int(S_ik[i, k]), int(F_ik[i, k])):
                 X_t_ik[t_prime, i, k] = 1
         t = F_ik[i, max_cols-1]
-    
+        
     resource_usage = ini_res_usage(X_t_ik, R, T)
 
     freeze = 0
@@ -447,11 +473,12 @@ def main(n_runs, n_threads, Lk, freeze_crit, temp_red, punish, ratio, pro_i):
     S_ik = np.zeros((n, max_cols))
     F_ik = np.zeros((n, max_cols))
     
+    t = 0
+    it = 0
     for i in range(n):
-        t = np.random.randint(0, T - sum(rec_lpk[pro_i[i], 1]))
         S_ik[i, 0] = t
         F_ik[i, 0] = S_ik[i, 0] + rec_lpk[pro_i[i], 1, 0]
-
+        
         for t_prime in range(int(S_ik[i, 0]), int(F_ik[i, 0])):
             X_t_ik[t_prime, i, 0] = 1
         
@@ -461,6 +488,7 @@ def main(n_runs, n_threads, Lk, freeze_crit, temp_red, punish, ratio, pro_i):
             for t_prime in range(int(S_ik[i, k]), int(F_ik[i, k])):
                 X_t_ik[t_prime, i, k] = 1
         t = F_ik[i, max_cols-1]
+        it += 1
     
     exam_type_patterns, exam_type_deltas = precompute_exam_type_patterns(pro_i, X_t_ik, S_ik, F_ik, R)
     resource_usage = ini_res_usage(X_t_ik, R, T)
@@ -514,7 +542,7 @@ def main(n_runs, n_threads, Lk, freeze_crit, temp_red, punish, ratio, pro_i):
 
     print("mean_time", np.mean(time_array))
     print("max_time", np.mean(max_per_group))
-        
+    
     start, end = compute_makespan(F_ik[:, -1], T, pro_i, durations)
     
     S_ik -= start
@@ -527,13 +555,10 @@ def main(n_runs, n_threads, Lk, freeze_crit, temp_red, punish, ratio, pro_i):
     
     return S_ik, F_ik, best_cost, time.time() - start_time_main, resource_usage
 
-#S_ik, F_ik, best_cost, runtime, resource_usage = main(100, 10, 50, 2500, 100, 0.99, 10, 0.9)
-
-
-for Lk in [500, 1500, 2500]:
+for Lk in [100, 550, 1000]:
     for freeze_crit in [10, 55, 100]:
         for temp_red in [0.8, 0.9, 0.975]:
-            for punish in [10, 55, 100]:
+            for punish in [0]:
                 for ratio in [0.5, 0.7, 0.9]:
                     print(Lk, freeze_crit, temp_red, punish, ratio)
                     _, _, _, _, _ = main(100, 10, Lk, freeze_crit, temp_red, punish, ratio, [3, 5, 10, 1, 10])
