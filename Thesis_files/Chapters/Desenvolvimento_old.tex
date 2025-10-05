@@ -1,0 +1,118 @@
+%!TEX root = ../template.tex
+%!TEX root = ../template.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Desenvolvimento.tex
+%% NOVA thesis document file
+%%
+%% Chapter with content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\typeout{NT FILE Desenvolvimento_old.tex}%
+
+\chapter{Mapeamento dos Exames}
+\label{cha:mapeamento_dos_exames}
+
+\prependtographicspath{{Chapters/Figures/}}
+
+% epigraph configuration
+\epigraphfontsize{\small\itshape}
+\setlength\epigraphwidth{12.5cm}
+\setlength\epigraphrule{0pt}
+
+Este capítulo irá descrever como se procedeu ao mapeamento dos exames mais frequentes, que considerações foram tidas, que simplificações apresentam e o resultado final desta fase.\\
+
+
+\chapter{Desenvolvimento do Modelo}
+\label{cha:desenvolvimento_do_modelo}
+
+Este capítulo irá apresentar os três problemas a responder, e os vários modelos utilizados para este fim. No primeiro problema existem recursos e exames fixos, sendo o objetivo reduzir ao mínimo o tempo até serem todos completados, chamado de \textit{Makespan}. O segundo problema tem os recursos e tempo fixos, sendo o objetivo maximizar o número de exames a realizar, através de um somatório simples ou tendo em conta algum peso do decisor. Finalmente, o terceiro problema é caracterizado por exames e tempo fixos, sendo o objetivo minimizar os recursos necessários para realizar todos os exames no tempo proposto.\\
+
+
+\section{\textit{Simulated Annealing}}
+
+Como já referido anteriormente, \textit{Simulated Annealing} é uma meta-heurística muito versátil e de fácil aplicação, mesmo assim existe várias decisões que iram influenciar a qualidade e rapidez das soluções obtidas. Sendo a principal decisão a forma como novos vizinhos são gerados, algo que depende fortemente da codificação da solução. Foram então desenvolvidos dois modelos com codificações diferentes, o primeiro permite resolver os três problemas apresentados, contudo o segundo modelo não permite responder o terceiro problema.\\
+
+Existem várias formas de estimar a temperatura inicial, idealmente será alta o suficiente de forma a evitar a influência da solução inicial ao aceitar todos os movimentos propostos, o que por sua vez garante o pioramento da solução. Em $[10.1007/978-3-319-91086-4_1]$ descreve uma forma de estimar este parâmetro. Começando com uma temperatura baixa $c_{0}$ realizar $L_{k}$ e calcular o rácio entre movimentos aceites e não aceites, se esse rácio for maior que o escolhido pelo decisor então a temperatura inicial está definida, caso contrário a nova temperatura será $c_{0}\times \alpha$, com $\alpha > 1$.\\
+
+Também é necessário definir quando terminar a procura, outra vez $[10.1007/978-3-319-91086-4_1]$ descreve uma forma de o fazer. Diz-se que o algoritmo termina quando não se observa a melhoria da solução entre um número de iterações suficientes, este número terá de ser definido por um decisor.\\
+
+\subsection{Problema do \textit{Makespan}}
+
+O objetivo deste problema é minimizar o \textit{Makespan} enquanto se garante a viabilidade da solução final. Uma solução não é viável se existir tempo de espera entre tarefas consecutivas de um exame (\textit{No-Wait}), e quando existe a sobre-utilização de recursos. A viabilidade deste primeiro critério não é posto em causa, mas a sobre-utilização de recursos pode ser utilizada com a modificação da função objetivo, ao tentar minimizar $\alpha \times \textit{Makespan} + \beta \times \text{count}$, onde count é o número de violações da sobre-utilização de recursos e $\alpha$ e $\beta$ são as importâncias/pesos do \textit{Makespan} e do count, respetivamente. Nos próximos capítulos vão ser apresentados ambos os métodos.\\
+
+O primeiro modelo apresenta sem dúvida a codificação mais simples, utilizando o momento inicial de cada exame como a solução do problema, facilitando a obtenção de qualquer informação a partir deste valor. Sendo assim, a vizinhança de uma solução é obtida pela deslocação temporal do início de um dado trabalho. Não requerendo nenhum esforço adicional para agendar os exames. Sendo possível por em causa a sobre-utilização de recursos.\\
+
+\begin{figure}[h]
+	\centering
+	\makebox[\textwidth][c]{%
+		\includegraphics[width=1\textwidth]{P1M1}
+	}
+	\caption{Codificação do modelo $1$}
+	\label{fig:cod_prob1_mod1}
+\end{figure}
+
+Uma solução vizinha poderá ser obtida de forma aleatória em que apenas é necessário definir o exame a deslocar e o momento no qual este deve começar, não havendo a garantia de viabilidade. Outra hipótese é verificar todos os momentos no qual se pode inserir um exame sem sobre-utilizar recursos, e escolher aleatoriamente um desses momentos.\\
+
+O segundo modelo é codificado pela sequência pela qual se agenda cada trabalho, serão necessários passos adicionais para obter a informação obtida primeiro modelo. Para obter a vizinhança basta modificar a sequência dos exames a agendar. Sendo assim é necessário um algoritmo extra que permite obter o tempo inicial de cada exame a partir da sequência dos exames a agendar.\\
+
+\begin{figure}[h]
+	\centering
+	\makebox[\textwidth][c]{%
+		\includegraphics[width=0.75\textwidth]{P1M2}
+	}
+	\caption{Codificação do modelo $2$}
+	\label{fig:cod_prob1_mod2}
+\end{figure}
+
+Qualquer solução obtida é garantidamente viável devido ao algoritmo de agendamento que descodifica a solução. O algoritmo utilizado é \textit{greedy}, ou seja, agenda cada exame o mais cedo possível e de forma sequencial de acordo com a solução.
+
+\subsection{Problema do Número de Exames}
+
+O objetivo deste problema é maximizar o número de exames a agendar, mantendo os recursos e tempo total fixo. Garantindo que a solução final apresentada é viável.\\
+
+A primeira codificação permite identificar o momento de começo de cada exame, se este momento for identificado com $-1$ significará que o respetivo exame não será agendado e não irá contribuir para a função objetivo.\\
+
+\begin{figure}[h]
+    \centering
+    \makebox[\textwidth][c]{%
+        \includegraphics[width=1.25\textwidth]{P2M1}
+    }
+    \caption{Codificação do modelo $1$}
+    \label{fig:cod_prob2_mod1}
+\end{figure}
+
+A forma como se obtém a vizinhança também será diferente, terá de ser possível deslocar temporalmente exames, mas também removê-los e adicioná-los, esta escolha é feita de forma aleatória com probabilidade definida previamente.\\
+
+Para garantir a viabilidade da solução podemos modificar a função objetivo, $\alpha \times \text{nº exames} + \beta \times \text{count}$, onde count é o número de violações da sobre-utilização de recursos e $\alpha$ e $\beta$ são as importâncias/pesos do nº de exames agendados e do count. Por sua vez, cada tipologia de exame poderá ter um peso distinto dos outros, podendo servir para os diferenciar, para garantir que exames de curta duração não são sobre-agendados ou como restrição do nº máximo de exames de cada tipologia. Também poderemos garantir que em cada passo da meta-heurística que não consideramos nenhuma solução vizinha que não é válida, semelhante ao que se fez no primeiro problema.\\
+
+A outra codificação possível é através da sequência de exames a agendar, em que apenas são apresentados os exames a agendar.\\
+
+\begin{figure}[h]
+    \centering
+    \makebox[\textwidth][c]{%
+        \includegraphics[width=0.9\textwidth]{P2M2}
+    }
+    \caption{Codificação do modelo $2$}
+    \label{fig:cod_prob2_mod2}
+\end{figure}
+
+Com esta codificação também será necessário 3 tipos diferentes de vizinhança, trocar a ordem dos exames, removê-los e adicionpa-los.\\
+
+Contudo, esta codificação não garante inerentemente a viabilidade da solução, ao contrário do problema anterior. Para tal utilizamos a função objetivo dada por $\alpha \times \text{nº exames} + \beta \times \text{over-time}$, onde over-time é a quantidade de tempo que é ultrapassado em relação ao definido no início do problema e $\alpha$ e $\beta$ são as importâncias/pesos do nº de exames agendados e do over-time, também será possível definir pesos diferentes para cada tipologia.\\
+
+\subsection{Problema do Máximo de Recursos}
+
+Neste problema pretende-se minimizar a utilização máxima de cada recurso, ao contrário dos outros, este problema é de caráter tático.\\
+
+\begin{figure}[h]
+    \centering
+    \makebox[\textwidth][c]{%
+        \includegraphics[width=1\textwidth]{P3M1}
+    }
+    \caption{Codificação do modelo $1$}
+    \label{fig:cod_prob3_mod1}
+\end{figure}
+
+Para tal utilizar-se-á o modelo $1$ na qual a vizinhança será apenas o deslocamento temporal dos exames. Este modelo é inerentemente viável porque não há sobre-utilização de recursos, por ser a variável em estudo, nem haverá over-time ao limitar o deslocamento temporal dos exames. Será essencial atribuir pesos diferentes para cada recurso.\\
+
+

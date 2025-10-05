@@ -1,0 +1,31 @@
+%!TEX root = ../template.tex
+%!TEX root = ../template.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Desenvolvimento.tex
+%% NOVA thesis document file
+%%
+%% Chapter with content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\typeout{NT FILE Conclusao.tex}%
+
+\prependtographicspath{{Chapters/Figures/}}
+
+% epigraph configuration
+\epigraphfontsize{\small\itshape}
+\setlength\epigraphwidth{12.5cm}
+\setlength\epigraphrule{0pt}
+
+\chapter{Conclusão}
+\label{cha:conclusão}
+
+Com o aumento dos gastos no setor de saúde, a inovação que requer pouco investimento é essencial para travar esta tendência. A melhoria das agendas de exames é uma solução pouco explorada para a melhoria da eficiência operacional em contexto hospitalar. Através da formulação de um problema \textit{Job-Shop} com extensões e restrições adicionais, pretendeu-se criar modelos que permitem agendar exames no menor tempo possível, ou maximizar o número de exame executados.\\
+
+O problema apresentado por este sistema pode ser descrito como \textit{Flexible Multi-Resource Job-Shop with No-Wait}. De forma a responde às duas questões colocadas foram criados três modelos para cada. Dois destes com uma codificação da solução baseada no instante de começo de cada exame, diferenciadas pela aceitação, ou não, da sobre-utilização de recursos. O outro modelo utilizada a codificação baseada na sequência de agendamento, para a qual foram comparados quatro algoritmos diferentes de \textit{timetabling}.
+
+Com a realização desta dissertação foi possível criar um conjunto de modelos capazes de fornecer soluções de alta qualidade, em tempo computacional reduzido. A sua implementação futura irá ajudar os decisores a criar agendas que asseguram os tempos máximos de resposta, aumentam a utilização eficiente de recursos, e reduzem os custos com a execução de cada exame.\\
+
+Um dos problemas na implementação dos modelos num futuro próximo passa pela recolha de um maior volume de dados sobre a duração da várias atividades e a diminuição do impacto da que a incerteza tem sobre a robustez das soluções apresentadas.\\
+
+No futuro, a modelação do sistema em estudo poderá ser melhorada, através da substituição da restrição \textit{No-Wait} pela restrição de atraso máximo, ou manter \textit{No-Wait} mas considerar tempos de processamento controláveis. Ao mesmo tempo, a implementação dos modelos discutidos com linguagens de programação mais eficientes pode aumentar a qualidade das soluções ou diminuir ainda mais o tempo computacional.\\
+

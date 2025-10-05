@@ -1,0 +1,106 @@
+%!TEX root = ../template.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% RevisaoLiteratura.tex
+%% NOVA thesis document file
+%%
+%% Chapter with content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\typeout{NT FILE BaseTeorica.tex}%
+
+\chapter{Base Teórica}
+\label{cha:base_teórica}
+
+\prependtographicspath{{Chapters/Figures/Covers/}}
+
+% epigraph configuration
+\epigraphfontsize{\small\itshape}
+\setlength\epigraphwidth{12.5cm}
+\setlength\epigraphrule{0pt}
+
+Este capítulo irá introduzir alguns conhecimentos necessários para comunicar eficientemente a revisão da literatura e o trabalho realizado de forma geral.\\
+
+\section{Extensões, Restrições, e Critérios}
+\label{sec:extensões_restrições_critérios}
+
+O problema aqui apresentado poderá ser englobado na família de problemas \textit{Job-Shop}, um dos problemas mais estudados na área de investigação operacional.\\
+Este problema é definido por um conjunto finito $J$ de trabalhos, um conjunto finito $R$ de recursos, e um conjunto finito $O$ de operações. Cada trabalho $j$ é uma sequência de $n_{j}$ operações consecutivas em $O$, em que cada operação $i \in O$ será processada no recurso $R_{i}$ com duração contínua de $\tau_{i}$ e sem antecipação de operações~\cite{dauzere-peresFlexibleJobShop2024}.\\
+Contudo, o problema em estudo não será apenas descrito pela definição clássica de \textit{Job-Shop}. Existe uma grande variedade de extensões, restrições, e critérios que permitem modificar o problema base de forma a ser mais fidedigno ao sistema em estudo. Para tal, o problema em estudo será descrito como \textit{Flexible Multi-Resource Job-Shop with No-Wait}.\\
+
+A extensão \textit{Flexible} foi descrito pela primeira vez por Brucker e Schlie~\cite{bruckerJobshopSchedulingMultipurpose1990} e dado o nome de \textit{Flexible} por Brandimarte~\cite{brandimarteRoutingSchedulingFlexible1993}. Esta adição é uma das mais importantes na generalização do problema \textit{Job-Shop} para o contexto real, existe no entanto o aumento da complexidade e a impossibilidade de utilizar o método tradicional na sua resolução~\cite{dauzere-peresFlexibleJobShop2024}. Existe para cada operação $i \in O$ um conjunto de recursos $R_{i} \subseteq R$ que podem ser utilizados, ou seja, existe um conjunto de recursos-tipo que exercem a mesma função, com duração de $\tau_{i}^{k}$ para o recurso $k \in R_{i}$.\\
+
+A extensão \textit{Multi-Resource} foi descrita pela primeira vez por Brucker e Neyer~\cite{bruckerTabusearchMultimodeJobshop1998} e por Dauzère-Pérès et al.~\cite{dauzere-peresMultiresourceShopScheduling1998}, na qual existe para cada operação $i \in O$, $m(i)$ recursos diferentes, tal que o conjunto $R_{i}^{k}$ contém o $kº$ recurso-tipo da operação $O_{i}$, ou seja, cada operação terá de ser processada por $m(i)$ recursos-tipo.\\
+
+A restrição \textit{Minimum/Maximum Time Lag} limita o tempo decorrido entre operações sequenciais de um trabalho, sendo \textit{No-Wait} o caso extremo desta restrição, garantindo que não existe tempo de espera entre operações sequenciais. Este conceito foi proposto por Callahan~\cite{callahanNothingHotDelay1971}, tal que o começo da operação $O_{i+1}$ ocorra no mesmo momento que a operação $O_{i}$ termina, caso estas façam parte do mesmo trabalho $j$.\\
+
+Ao mesmo tempo, também é possível resolver o problema apresentado de forma a maximizar ou minimizar diferentes critérios. Estes podem ser baseado em tempo, número de trabalhos, custo, receita, ou impacto no meio ambiente.\\
+
+\section{Abordagens para a Resolução}
+\label{sec:abordagens_para_a_resolução}
+
+Existem três categorias gerais para a resolução de problemas \textit{Job-Shop}: algoritmos exatos; heurísticas; e meta-heurísticas~\cite{jiangReviewIntelligentScheduling2023}. De seguida, serão apresentados alguns métodos de resolução do problema \textit{Job-shop} e uma breve descrição de como funcionam.
+
+\subsection{Algoritmos Exatos}
+
+Historicamente, a utilização de métodos exatos foi a principal abordagem utilizada, com especial ênfase nos artigos iniciais sobre o problema clássico de \textit{Job-Shop}. A utilização de \textit{Branch and Bound}(\textit{BB}) é a principal abordagem para a resolução deste problema, através de um algoritmo dedicada ou modelado através de \textit{Mixed Integer Linear Programming} (\textit{MILP})~\cite{dauzere-peresFlexibleJobShop2024}.\\
+A forma canónica de \textit{Linear Programming} pode ser expressa por:\\
+$$\text{Maximizar } z =c_{1}x_{1} + c_{2}x_{2} + \ldots + c_{n}x_{n}$$
+Sujeito a:
+$$a_{11}x_{1} + a_{12}x_{2} + \ldots + a_{1n}x_{n} \leq b_{1}$$
+$$a_{21}x_{2} + a_{22}x_{2} + \ldots + a_{2n}x_{n} \leq b_{2}$$
+$$\vdots$$
+$$a_{m1}x_{m} + a_{m2}x_{2} + \ldots + a_{mn}x_{n} \leq b_{m}$$
+$$x_{j} \geq 0, j=1, \ldots, n$$
+
+Existem vários modelos utilizados para representar o sistema em estudo: o modelo disjuntivo; o modelo indexado no tempo; e o modelo baseado em ordenação~\cite{kuMixedIntegerProgramming2016}.\\
+
+O modelo disjuntivo, ou de Manne~\cite{manneJobShopSchedulingProblem1960} utiliza um grafo denominado $G(V,C \cup D)$, em que $V$ é o conjunto de vértices e que representam as operações dos vários trabalhos, $C$ é o conjunto de arcos conjuntivos que ligam as operações $i$ e $i+1$ de um trabalho, $D$ é o conjunto de arcos disjuntivos que ligam as operações que requerem o mesmo recurso. Desta forma é escolhida a ordem de processamento em cada recurso de forma a cumprir com as restrições e minimizando/maximizando o critério em estudo. O modelo indexado no tempo, ou de Bowman~\cite{bowmanScheduleSequencingProblem1959}, procura definir o instante de início de cada operação, sendo esta a variável de decisão que o modelo utilizará. O modelo baseado em ordenação, ou de Wagner~\cite{wagnerIntegerLinearprogrammingModel1959}, define explicitamente a sequência de operações que deverão ocorrer em cada recurso.\\
+
+Caso se formule o problema através de \textit{MILP} será necessário utilizar um \textit{solver}, como o Gurobi ou o CPLEX, que utilizam algoritmos como \textit{BB} ou \textit{Cutting Planes} na resolução do problema. 
+
+Por sua vez, \textit{Constraint Programming} (\textit{CP}) tem vindo a ser mais estudo para a resolução destes problemas~\cite{dauzere-peresFlexibleJobShop2024}. Em problemas de escalonamento, utiliza-se variáveis de intervalo com quatro atributos: se um intervalo se encontra na solução, o tempo de início do intervalo, o tempo de término do intervalo, e o tamanho deste~\cite{kasapidisFlexibleJobShop2021}.\\
+
+\subsection{Heurísticas}
+
+Heurísticas são algoritmos de rápida resolução que devem permitir a obtenção de uma solução viável de forma rápida, por isso será de esperar que esta abordagem não resulte na obtenção da solução ótima. Frequentemente, a formulação de uma heurística apenas funcionará para o problema para qual foi desenhada, devido à intuição apresentada na sua construção~\cite{ezugwuMetaheuristicsComprehensiveOverview2021}.\\
+
+\subsection{Meta-Heurísticas}
+
+Meta-heurísticas são o meio termo entre a qualidade das soluções apresentadas por algoritmos exatos e a rapidez das heurísticas. Existe uma grande quantidade de abordagens existentes, pode ser baseadas em população, em trajetórias, com memória ou sem, ou baseadas em processos naturais.\\
+Algumas das meta-heurísticas com mais impacto são: \textit{Simulated Annealing} (\textit{SA}); \textit{Genetic Algorithm} (\textit{GA}); \textit{Differential Evolution} (\textit{DE}); \textit{Particle Swarm Optimization} (\textit{PSO}); e \textit{Tabu Search} (\textit{TS})~\cite{ezugwuMetaheuristicsComprehensiveOverview2021}. Todas estas meta-heurísticas poderão ser utilizadas para resolver o problemas apresentado.\\
+
+\textit{SA} é uma meta-heurística evolucionária baseada no processo de arrefecimento de metais, em que se verifica uma menor energia do sistema quando este arrefecimento acontece lentamente. Desta forma, é gerada uma solução $i$ com uma vizinhança $S_{i}$ de onde é gerada uma nova solução $j$, que será avaliada consoante a função objetivo $f(j)$. A solução $j$ poderá ser aceite mesmo não apresentando melhor valor, , sendo esta a principal diferenciação de outras meta-heurísticas, de acordo com o algoritmo Metropolis~\cite{metropolisEquationStateCalculations1953}:
+$$
+Pr\{\text{aceitar } j\}= 
+\begin{cases}
+	1                         ,& \text{se } f(j)<f(i)\\
+    e^{\frac{f(i)-f(j)}{c_{k}}},& \text{caso contrário}
+\end{cases}
+$$
+
+Onde $c_{k}$ é a temperatura atual. No início do algoritmo, quando a temperatura é alta, existe probabilidade acrescida de aceitar soluções piores, ao reduzirmos a temperatura com cada iteração, a probabilidade de aceitar soluções piores que a atual diminui.\\
+Também será necessário definir qual a temperatura inicial do algoritmo, como se realiza o arrefecimento de $c_{k}$, quantas vizinhanças procurar por iteração, e quando se dá por terminado o algoritmo. Cada vizinho visitado pode, ou não, representar uma solução viável, deve-se ter cuidado na escolha da representação da solução e na geração da vizinhança para garantira a viabilidade da solução, ou possivelmente relaxar certas restrições ao incluir a punição sobre a sua violação na função objetivo.\\
+
+\textit{GA} é uma meta-heurística populacional baseada no conceito de sobrevivência do mais apto. Inicia-se o algoritmo ao gerar vários membros aleatoriamente, tal que cada um seja representado por um cromossoma, a codificação dessa solução. Para a geração de novas soluções ocorre o cruzamento entre membros, normalmente selecionadas entre os melhores, de forma a obter uma nova descendência. A essa descendência ocorre a mutação do cromossoma para que ocorra maior exploração das soluções possíveis~\cite{katochReviewGeneticAlgorithm2021}.\\
+
+\textit{DE} é uma meta-heurística populacional também baseada no conceito de sobrevivência do mais apto. Contrariamente a \textit{GA}, nem toda a descendência é aceite e os pais removidos, diminuindo o risco de substituir boas soluções por piores~\cite{shilpaJobShopScheduling2018}. Inicia-se com uma população inicial, de tamanho $NP$, de vetores com valores uniformes entre 0 e 1, tal que $X_{m,n,G}$ seja o valor do vetor $m$ na posição $n$ da iteração $G$. Três vetores $r_{1}$, $r_{2}$ e $r_{3}$ são gerados de forma a que cada seja composto por uma sequência de tamanho $NP$, de seguida o vetor mutante é gerado por:
+$$V_{m,n,G}=X_{r_{1},n,G}+F(X_{r_{2},n,G}-X_{r_{3},n,G})$$
+
+Por sua vez os vetores a testar são gerados por:
+$$
+U_{m,n,G+1}= 
+\begin{cases}
+	V_{m,n,G}   ,& \text{se } rand()\leq CR\\
+    X_{m,n,G}   ,& \text{caso contrário}
+\end{cases}
+$$
+
+Tendo que $rand()$ seja um valor aleatório uniform entre 0 e 1, e que $CR$ seja a taxa de aceitação de cruzamento. Num passo seguinte será necessário descodificar a solução gerada para a avaliar, o que dependerá do problema a resolver~\cite{sriboonchandrImprovedDifferentialEvolution2019}.\\
+
+\textit{PSO} é uma meta-heurística de enxame baseada no comportamento natural de animais de rebanho durante a procura de comida. Para tal são gerados $P$ partículas, tal que a partícula $i$ se encontra na posição $X^{i}(t)$ na iteração $t$, bem como uma velocidade $V^{i}(t)$. Com cada iteração a posição e velocidade de cada partícula é atualizada:
+$$X^{i}(t+1)=X^{i}(t)+V^{i}(t+1)$$
+$$V^{i}(t+1)=\omega V^{i}(t)+c_{1}r_{1}(pbest^{i}-X^{i}(t))+c_{2}r_{2}(gbest-X^{i}(t))$$
+
+Onde $r_{1}$ e $r_{2}$ são valores aleatórios entre 0 e 1, $\omega$, $c_{1}$ e $c_{2}$ são os parâmetros da meta-heurística e chamam-se de inércia, coeficiente cognitivo e coeficiente social, respetivamente. $pbest^{i}$ é a melhor solução encontrada pela partícula $i$, $gbest$ é a melhor solução já encontrada~\cite{ParticleSwarmOptimization2025}.\\
+
+\textit{TS} é uma meta-heurística populacional que utiliza memória para guiar a procura. Através de uma solução $x$ um conjunto de soluções vizinhas são geradas através da sua modificação, o melhor vizinho $\tilde{x}$ será comparada com a melhor solução já encontrada, que será o ponto de começo da próxima iteração. A lista tabu inclui um conjunto dos últimas movimentos tomados, o que limita os vizinhos que podem ser visitados em cada iteração, ajudando a guiar a procura. Como a lista é de tamanho limitado, os movimentos mais antigos saem e voltam a estar disponíveis.

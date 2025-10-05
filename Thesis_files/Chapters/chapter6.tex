@@ -1,0 +1,236 @@
+%!TEX root = ../template.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% chapter6.tex
+%% NOVA thesis document file
+%%
+%% Chapter with content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\typeout{NT FILE chapter6.tex}%
+
+\chapter{Velho}
+\label{cha:cont}
+
+Este capítulo dedica-se à revisão bibliográfica da tese, encontram-se então um número de artigos a seguir.
+
+\section{Revisão bibliográfica e apresentação do problema}
+\label{sec:rev_bib_ap_pron}
+
+Este problema pode ser descrito como um problema de agendamento \textit{Job-Shop}, contudo existem algumas restrições e suposições que não se verificam no problema apresentado. Desta forma, a revisão bibliográfica irá dividir-se em duas secções, a da revisão de problemas \textit{Job Shop}, e a dos métodos utilizados para  resolver o problema.\\
+%Assim, poderá ser reclassificado como um problema de agendamento \textit{Flexible Multi-Resource Job-Shop}, $FMRJ$, que será explorado posteriormente. Por outro lado, também pode ser considerado um problema de agendamento \textit{Resource-constrained multi-project}, que apresenta características idênticas ao problema \textit{Job Shop} anteriormente apresentado.\\
+
+\subsection{Job-Shop}
+\label{subsec:JS}
+
+Existe uma grande quantidade de artigos no tema \textit{Job-Shop}, e a grande variedade apresentada por este problema torna difícil definir que autores o descreveram pela primeira vez, contudo $[10.1016/S0377-2217(98)00113-1]$ indica que o livro editado por Muth e Thompson, \textit{"Industrial Scheduling"}, é o principal fundamento para esta área de investigação operacional.\\
+O problema de agendamento \textit{Job-Shop} é descrito por um conjunto finito de trabalhos $\{J_{n}\}^{n}_{i=1}$ de tamanho $n$, a serem processado um conjunto finite de máquinas $\{M_{k}\}^{m}_{k=1}$ de tamanho $m$. Cada trabalho tem um conjunto de operações $\; O_{i1}, O_{i2}, \ldots, O_{im_{i}} \;$, que terão de ser processadas em cada máquina, com um tempo ininterrupto $\tau_{ik}$.\\
+Consequentemente existe um conjunto de restrições e suposições tidas neste problema, cada trabalho tem um fluxo independente pelas várias máquinas, cada máquina apenas consegue processar um trabalho e cada trabalho apenas consegue ser processado por uma máquina de cada vez.\\
+Dauzère-Pérès et al. (2024)$[10.1016/j.ejor.2023.05.017]$ realizam uma ótima revisão sobre este tema, na qual apresentam várias características adicionais que vêm sido consideradas na literatura, por isso ao longo desta subsecção vai ser utilizada a nomenclatura utilizada apresentada, e quando necessário, o problema será referido como $\alpha^{\beta}_{\gamma} = FMRJ^{nwt}_{C_{max}}$.\\
+Um problema \textit{Flexible Job-Shop}, cunhado (coined?) pela primeira vez por $[10.1007/BF02023073]$, ao contrário do clássico possibilita a existência de um conjunto de máquinas $\xi_{ik}$ capazes de processar $O_{ik}$ com um tempo $\tau_{ik}$ que poderá ser igual ou diferente entre as máquinas no conjunto. Poderá ser então necessário agendar propositadamente uma máquina a uma operação.\\
+Semelhantemente, um problema \textit{Multi-Resource Job-Shop} é uma generalização do \textit{Job-Shop}, no qual existe um conjunto de recursos $R$, em que para cada operação $O_{ij}$ são necessários os recursos pertencentes ao sub-conjunto $R_{ij}$, foi introduzido por $[10.1016/S0377-2217(97)00341-X]$.\\
+Outra característica presente no problema aqui descrito mas não tida no \textit{Job-Shop} é o de \textit{no-wait}, descrito pela primeira vez por CALLAHAN, J. R. (1971. The Nothing Hot Delay Problems in the Production of Steel, Ph.D.), onde se considera a restrição de não haver tempo de espera, ou interrupções, entre as várias operações de um dado trabalho.\\
+Finalmente, a função objetivo utilizada para é a minimização do \textit{makespan}, ou seja, a minimização do tempo necessário para processar todos os trabalhos. Esta é a função objetivo mais utilizada em problemas deste tipo $[10.1007/s12555-023-0578-1]$.\\
+
+\subsection{\textit{Métodos de Resolução}}
+\label{subsec:MR}
+
+Os primeiros artigos publicados sobre a resolução dedicaram-se a problemas de pequena dimensão, em que se pretendia criar um algoritmo que possibilitava alcançar a solução ótima com a menor complexidade computacional possível, contudo este facto limita a complexidade do problema que se pode enfrentar, isto deve-se ao facto do problema ser \textit{NP-Hard}. Existem no entanto problemas de dimensão menor que podem ser otimizados em tempo polinomial, como é o caso de 3 máquinas...
+
+De forma geral existem três abordagens para a resolução de um problema \textit{Job-Shop}, de forma exata, com heurísticas, e meta-heurísticas $[10.1016/j.cie.2022.108786]$.\\
+O propósito desta primeira abordagem é encontrar a solução ótima para o problema, através de \textit{Mixed-Integer Linear Programming} (\textit{MILP}), \textit{Branch and Bound} e \textit{Constraint Programming}. Quando o problema apresentado é de pequena dimensão, estes métodos mantém um tempo até à solução ótima razoável, mas com o aumento da complexidade e do tamanho tornam-se impráticos $[10.1007/s10845-014-0906-7]$.\\
+O problema descrito, $\alpha^{\beta}_{\gamma} = FMRJ^{nwt}_{C_{max}}$, pode ser codificado em \textit{MILP}, com variáveis de decisão $t_{i}$, como o tempo de início da operação $i$, e as seguintes variáveis binárias $[10.1016/j.ejor.2023.05.017]$:
+$$
+\alpha^{k}_{i}=
+    \begin{cases}
+      1 & \text{se a operação $i$ for atribuida à maquina $k$,}\\
+      0 & \text{caso contrário.}\\
+    \end{cases}
+$$
+
+$$
+\beta_{ii'}=
+    \begin{cases}
+      1 & \text{se a operação $i$ for sequenciada antes de $i'$,}\\
+      0 & \text{caso contrário.}\\
+    \end{cases}
+$$
+Então o modelo é definido por:\\
+$$\sum_{k \in R_{ik}}\alpha^{k}_{i} = 1 \quad \forall i \in O,$$
+$$t_{i} \geq t_{pr(i-1)} + \sum_{k \in R_{i-1k}}\tau^{k}_{i-1}\alpha^{k}_{i-1} \quad \forall i \in O,$$
+$$t_{i} \geq t_{i'+1}-(2-\alpha^{k}_{i}-\alpha^{k}_{i'}+\beta_{ii'})H \quad \forall (i,i') \in O\times O, \textbf{tal que } i \neq i', k \in R_{ik} \cap R_{i'k}$$
+$$t_{i'} \geq t_{i+1}-(3-\alpha^{k}_{i}-\alpha^{k}_{i'}-\beta_{ii'})H \quad \forall (i,i') \in O\times O, \textbf{tal que } i \neq i', k \in R_{ik} \cap R_{i'k}$$
+$$t_{i}+d^{kk'}_{ii'} \geq t_{i'} + (2-\alpha^{k}_{i} - \alpha^{k'}_{i'})H \quad \forall \lambda=(i,k,i',k',d^{kk'}_{ii'}) \in \mathcal{L}$$
+$$C_{max} \geq t_{i} + \sum_{k \in R_{ik}}\tau^{k}_{i}\alpha^{k}_{i} \quad \forall i \in O,$$
+$$\alpha^{k}_{i} \in \{0,1\} \quad \forall i \in O, k \in R_{ik}$$
+$$\beta_{ii'} \in \{0,1\} \quad \forall (i,i') \in O\times O$$
+
+Heurísticas são algoritmos que permitem obter soluções aproximadas de forma rápida mas que não se sabe quão bom é e que são dependentes do problema. Desta forma é difícil enumerar as várias heurísticas utilizadas para a resolução deste problema.\\
+Meta-heurísticas são algoritmos pseudo-aleatório que possibilitam resolver um problema de forma ótima, existe grande variedade de algoritmos e podem ser facilmente modificados de forma a resolveram diferentes problemas.\\
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Revisão bibliográfica}
+\label{sec:rev_bib}
+
+Este problema poderia ser descrito como um problema de agendamento clássico, contudo não se verificam as suposições descritas por $[10.1007/978-3-319-39574-6_1]$ que cada máquina processa nem mais que um trabalho a dado momentos, e que nenhum trabalho é atribuido a mais que uma máquina. Num momento posterior vão ser exploradas estas suposições.
+
+
+
+"A Constraint-Programming-Based Branch-and-Price-and-Cut Approach for  Operating Room Planning and Scheduling"\\ %~\cite{doulabiConstraintprogrammingbasedBranchandpriceandcutApproach2016}:\\
+Objetivo de maximizar a soma dos tempos de cirurgia;\\
+Restrições incluem número máximo de horas por cirurgião, inexistência de sobreposições de cirurgias para um dado cirurgião;\\
+Permite a existência de cirurgias obrigatórias/urgentes e cirurgias eletivas;\\
+Suposições são por exemplo 8h disponíveis sem horas extra-ordinárias, salas de operação iguais, diferentes tipos de infeções podem implicar limpeza, alocação de cirurgias a cirurgiões pré-definida.\\\\
+
+"A Data-Driven Preventive Surgery Scheduling in Flexible Operating Rooms Using Stochastic Optimization"\\ %~\cite{zadehDatadrivenPreventiveSurgery2023}:\\
+Objetivo de minimizar custos com a realização e adiamento de cirurgias;\\\\
+
+"A Real-Time Reactive Framework for the Surgical Case Sequencing Problem"\\ %~\cite{sprattRealtimeReactiveFramework2021}:\\
+Objetivo de maximizar a utilização do bloco operatório, em horas;\\
+Restrições incluem a impossibilidade de duas cirurgias acontecerem ao mesmo tempo no mesmo lugar, garantia que uma dada cirurgia ocorre no bloco operatório da especialidade;
+Suposições são por exemplo a existência de blocos com especializações distintas, existem anestesista suficientes.\\\\
+
+"A Simulated Annealing for a Daily Operating Room Scheduling Problem under Constraints of Uncertainty and Setup"\\ %~\cite{abdeljaouadSimulatedAnnealingDaily2020}:\\
+Objetivo de minimizar o tempo de espera do cirurgião e o tempo total.\\\\
+
+"A Two-Stage Robust Optimization Approach for the Master Surgical Schedule Problem under Uncertainty Considering Downstream Resources"\\ %~\cite{makboulTwostageRobustOptimization2022}:\\
+Objetivo de maximizar um score relativo ao tempo de espera do paciente;\\
+Restrições incluem limite de horas de trabalho de cirurgiões e a sua disponibilidade, tem em conta os recursos a jusante;\\
+Composto por duas fases, primeiro atribui-se a especialidade a uma sala e a um horário, num segunda fase atribui-se a cirurgia a essa sala e bloco.\\\\
+
+
+\section{Perguntas a fazer}
+\label{sec:perg}
+
+Perguntas a fazer:\\
+- Existem prioridade? E urgências?\\
+- Todas as máquinas ou salas são iguais?\\
+- Existe diferença entre técnicos?\\
+- Qual é a política de cancelar exames?\\
+- Qual é o objetivo ou KPI's?\\
+- Quais são as restrições que, há partida, existem?\\
+- Quais as fontes de variação?\\
+
+\section{Formulação LP}
+\label{sec:form}
+
+Notação:\\
+- $n,i$ : Número de exames a marcar e respetivo índice; \\
+- $D,h$ : Número de dias e respetivo índice; \\
+- $T,t$ : Número de momentos e respetivo índice; \\
+- $r,k$ : Número de tarefas dos exames e respetivo índice; \\
+- $u,l$ : Número de processos e respetivo índice; \\
+- $p$ : Índice do recurso; \\
+- $\text{rec}_{lpk}$ : Requisitos do recurso $p$ para a tarefa $k$ do processo $l$, se $p=$1 então o recurso é tempo; \\
+- $\text{rec}^{max}_{p}$ : Nível máximo do recurso $p$; \\
+- $\text{pro}_{i}$ : Variável inteira, de tamanho $n$ que liga o exame $i$ ao processo $l$; \\
+
+Variáveis de Decisão: \\
+- $X^{t}_{ikg}$ : Variável binária, 1 se o paciente $i$ estiver na tarefa $k$ no momento $t$ no dia $g$, 0 caso contrário; \\
+- $Z^{t}_{ikg}$ : Variável binária, 1 se o paciente $i$ estiver a iniciar a tarefa $k$ no momento $t$ no dia $g$, 0 caso contrário; \\
+- $F_{ikg}$ : Variável inteira, o tempo de completação da tarefa $k$ do paciente $i$ no o dia $g$; \\
+- $S_{ikg}$ : Variável inteira, o tempo de início da tarefa $k$ do paciente $i$ no o dia $g$; \\
+- $\text{gap}_{ikg}$ : Variável inteira, permite a existência de tempo de espera entre a tarefa $k$ e $k+1$ para o paciente $i$ no dia $g$; \\
+
+Função Objetivo:
+\begin{align}
+\min \max M \label{eq:1}
+\end{align}
+
+Sujeito a:
+\begin{align}
+&F_{i,r-1,g} \leq M \quad \forall i,g \label{eq:2} \\
+&\sum_{t}Z^{t}_{i,k,g} = 1 \quad \forall i,k,g \label{eq:3} \\
+&rec_{pro_{i},1,k} = \sum_{t}X^{t}_{i,k,g} \quad \forall i,k,g \label{eq:4} \\
+&\sum^{t+\text{rec}_{\text{pro}_{i},1,k}}_{t^{'}=t}X^{t^{'}}_{ikg} \geq \text{rec}_{\text{pro}_{i},1,k}Z^{t}_{ikg} \quad \forall i,k,g,t=1, \ldots,T-\text{rec}_{\text{pro}_{i}1k} \label{eq:5} \\
+&S_{i,k+1,g} = F_{i,k,g} \quad \forall i,k,g \label{eq:6} \\
+&S_{i,k,g} = \sum_{t}tZ^{t}_{i,k,g} \quad \forall i,k,g \label{eq:7} \\
+&\sum_{i}\sum_{k}rec_{pro_{i},p,k}X^{t}_{i,k,g} \leq rec^{max}_{p} \quad \forall t,g,p=2, \ldots, 17 \label{eq:8} \\
+&F_{i,k,g} - S_{i,k,g} = rec_{pro_{i},1,k} \quad \forall i,k,g \label{eq:9}
+\end{align}
+A função objetivo (~\ref{eq:1}) minimiza o \textbf{makespan} dos exames, ou seja, o tempo entre o início do primeiro exame, e o fim do último.\\
+A restrição (~\ref{eq:2}) garante que todos os exames acabam antes do \textbf{makespan}, possibilita a função objetivo.\\
+A restrição (~\ref{eq:3}) garante que só existe um momento, em que a tarefa $k$ do exame $i$ no dia $g$ é atribuído.\\
+A restrição (~\ref{eq:4}) garante que se o paciente $i$ for atribuído ao dia $g$, o valor do somatório sobre $t$ de $X^{t}_{i,k,g}$ será o valor do tempo de completar todas as tarefas necessárias.\\
+A restrição (~\ref{eq:5}) garante que para uma dada tarefa $k$ do paciente $i$ do dia $g$, o somatório do tempo que esta decorre será o mesmo que o tempo pré-definido.\\
+A restrição (~\ref{eq:6}) garante que a tarefa $k+1$ começa quando a tarefa $k$ acaba, para o exame $i$ no dia $g$.\\
+A restrição (~\ref{eq:7}) garante a coerência do momento de início da tarefa $k$.\\
+A restrição (~\ref{eq:8}) garante que não existe a sobre-utilização do recursos $p$ para o instante $t$ do dia $g$.\\
+A restrição (~\ref{eq:9}) garante que o tempo entre o início e o fim de uma tarefa $k$ para o paciente $i$ é igual ao tempo "previsto".\\
+
+
+\section{Simulated Annealing}
+\label{sec:SA}
+\SetKwInput{KwIni}{Iniciação}                % Set the Input
+
+\begin{algorithm}
+\KwIni{$k=0, c_{k}=c_{0}, L_{k}=L_{0}$}
+\While{Congelado $\neq True$}{
+	\For{$l=0$ \KwTo $Lk$}{
+		Deslocar um exame aleatória numa quantidade de tempo aleatório;\\
+		Calcular o custo, e comparar com o da solução anterior;\\
+		Aceitar a nova solução se for de custo menor, também será aceite com probabilidade $e^{\frac{custo_{velha}-custo_{nova}}{c_{k}}}$;
+		}
+	$c=c\times decay$
+	}
+\caption{SA clássico}
+\end{algorithm}
+
+\begin{table}[H]
+\caption{Benchmark dos dois métodos}
+\label{tab:my-table}
+\begin{tabular}{llllll}
+\hline
+Problema           & Método      & Objetivo & Best Bound (Gurobi)  & \%GAP & Tempo (s) \\ \hline
+\multirow{7}{*}{A} & Gurobi      & 435      & \multirow{7}{*}{414} & 4,83  & 10800     \\
+                   & Gurobi      & 414      &                      & 0     & 26557     \\
+                   & SA - 500    & 497      &                      & 16,70 & 37        \\
+                   & SA - 2000   & 475      &                      & 12,84 & 154       \\
+                   & SA - 5000   & 457      &                      & 9,41  & 347       \\
+                   & SA - 20000  & 430      &                      & 3,7   & 1532      \\
+                   & SA - 100000 & 430      &                      & 3,7   & 7660      
+\end{tabular}
+\end{table}
+
+Este problema é caracterizado por estas duas variáveis, $pro_i = $[0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 4, 5] e os exames utilizados [Cintigrafia Óssea corpo inteiro, Cintigrafia para Amiloidose cardíaca, Cintigrafia Tiroideia, PET - Estudo corpo inteiro com FDG, PET - Com 68 Ga-Péptidos, PET - Com 68Ga-PSMA].\\
+É de realçar alguns factos interessantes, a formulação matemática é replicada no gurobi, desta forma, o valor dado a T tem um impacto enorme no tempo até alcançar uma boa solução, torna-se então necessário utilizar o SA à partida. O valor apresentado na coluna dos métodos é o número de iterações a uma dada temperatura, $L_{k}$, quando este valor tende para o infinito, e o arrefecimento é  lento o suficiente, o objetivo tende para o ótimo. Observa-se a linearidade dos tempo necessário entre os SA diferentes, contudo o objetivo não evoluí linearmente.\\
+O \textbf{Best Bound} é dado pelo gurobi, contudo este valor não é necessariamente o valor ótimo do problema, foi o considerado por ser aquele que se apresenta como tal, será de esperar que seja superior se a otimização fosse deixada a percorrer durante mais tempo.\\
+Neste momento o critério para o \textbf{congelamento} do SA é a, $c \leq 1e-8$, porém, este critério permite o desperdício computacional, por haver um grande número de iterações em que o objetivo não é reduzido.
+
+
+
+
+
+%- $Y_{ig}$ : Variável binária, 1 se o paciente $i$ for examinado no dia $g$, 0 caso contrário; \\
+%Sujeito a:
+%\begin{align}
+%&\sum_{g}Y_{i;g} = 1 \quad \forall i \label{eq:2} \\
+%&\sum_{t}Z^{t}_{i,k,g} = Y_{i,g} \quad \forall i,k,g \label{eq:3} \\
+%&Y_{i,g}rec_{pro_{i},1,k} = \sum_{t}X^{t}_{i,k,g} \quad \forall i,k,g \label{eq:4} \\
+%&\sum^{t+\text{rec}_{\text{pro}_{i},1,k}}_{t^{'}=t}X^{t^{'}}_{ikg} \geq \text{rec}_{\text{pro}_{i},1,k}Z^{t}_{ikg} \quad \forall i,k,g,t=1, \ldots,T-\text{rec}_{\text{pro}_{i}1k} \label{eq:5} \\
+%&S_{i,k+1,g} = F_{i,k,g} + \Delta_{i,k,g} \quad \forall i,k,g \label{eq:6} \\
+%&S_{i,k,g} = \sum_{t}tZ^{t}_{i,k,g} \quad \forall i,k,g \label{eq:7} \\
+%&\sum_{i}\sum_{k}rec_{pro_{i},p,k}X^{t}_{i,k,g} \leq rec^{max}_{p} \quad \forall t,g,p=2, \ldots, 17 \label{eq:8} \\
+%&Y_{ig} = 1 \longrightarrow F_{i,k,g} - S_{i,k,g} = rec_{pro_{i},1,k} \quad \forall i,k,g \label{eq:9}
+%\end{align}
+%A função objetivo (~\ref{eq:1}) maximiza o número de momentos em que o recurso 10 e 18 estão a ser utilizados, sendo estes a sala câmara gama e a sala tomografo.
+%A restrição (~\ref{eq:2}) pretende garantir que para um dado paciente $i$, este apenas é atribuído até 1 vez.\\
+%A restrição (~\ref{eq:3}) pretende garantir que se o paciente $i$ estiver atribuído ao dia $g$, o valor de $Z^{t}_{i,k,g}$ reflete isto.\\
+%A restrição (~\ref{eq:4}) garante que se o paciente $i$ for atribuído ao dia $g$, o valor do somatório sobre $t$ de $X^{t}_{i,k,g}$ será o valor do tempo de completar todas as tarefas necessárias.\\
+%A restrição (~\ref{eq:5}) garante que para uma dada tarefa $k$ do paciente $i$ do dia $g$, o somatório do tempo que esta decorre será o mesmo que o tempo pré-definido.\\
+%A restrição (~\ref{eq:6}) possibilita a ocorrência de um tempo de espera limitado entre o fim da tarefa $k$ e o início da tarefa $k+1$ para o paciente $i$ no dia $g$.\\
+%A restrição (~\ref{eq:7}) garante a coerência do momento de início da tarefa $k$.\\
+%A restrição (~\ref{eq:8}) garante que não existe a sobre-utilização do recursos $p$ para o instante $t$ do dia $g$.\\
+%A restrição (~\ref{eq:9}) garante que o tempo entre o início e o fim de uma tarefa $k$ para o paciente $i$ é igual ao tempo "previsto".\\
+%A função objetivo (~\ref{eq:1}) pretende maximizar o somatório das prioridades dos exames realizados. A restrição (~\ref{eq:2}) faz a conexão entre as variáveis de decisão $Y_{ig}$ e $X^{t}_{ikg}$, garantindo a sua coerência. A restrição (~\ref{eq:3}) faz a conexão entre as variáveis de decisão $Z^{t}_{ikg}$ e $Y_{ig}$. A restrição (~\ref{eq:4}) pretende limitar o número de vezes que a cirurgia $i$ ocorre a 1. A restrição (~\ref{eq:5}) pretende garantir que se o exame $i$ ocorrer no dia $g$ para uma dada tarefa $k$ do procedimento $\text{pro}_{i}$, ou $l$, vai ser da duração certa. A restrição (~\ref{eq:6}) deve estar errada, mas pretende garantir que uma tarefa ocorre sem ser interrompida. A restrição (~\ref{eq:7}) e (~\ref{eq:8}) determinam o momento de início e de fim da tarefa $k$ do exame $i$. A restrição (~\ref{eq:9}) faz a conexão temporal entre $S_{ik}$ e $Z^{t}_{ikg}$. A restrição (~\ref{eq:10}) pretende fazer a ligação entre a tarefa $k$ e $k+1$ do exame $i$ permitindo um $\Delta$ de espera entre ambas. A restrição (~\ref{eq:11}) pretende verificar para um dado dia $g$ para o recurso $p$ no momento $t$ se a quantidade máxima de recursos não está a ser ultrapassada.
+
+

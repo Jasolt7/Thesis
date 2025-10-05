@@ -1,0 +1,47 @@
+%!TEX root = ../template.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Introducao.tex
+%% NOVA thesis document file
+%%
+%% Chapter with content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\typeout{NT FILE Introducao.tex}%
+
+\chapter{Introdução}
+\label{cha:intrudução}
+
+\prependtographicspath{{Chapters/Figures/Covers/}}
+
+% epigraph configuration
+\epigraphfontsize{\small\itshape}
+\setlength\epigraphwidth{12.5cm}
+\setlength\epigraphrule{0pt}
+
+Este capítulo irá introduzir o tema desta dissertação, a sua estrutura, a motivação e contexto, os objetivos a atingir e a abordagem tomada.\\
+
+
+\section{Motivação e Contexto}
+\label{sec:motivação_e_contexto}
+
+O custo associado ao setor de saúde tem vindo a aumentar, com os países do G7 a pagar mais de $10\%$ do seu PIB para este fim. O elevado custo deve-se a vários fatores, ao envelhecimento da população, à degradação do estilo de vida, ao aumento da estadia em hospital, entre outros~\cite{meskarpouramiriSystematicReviewFactors2021}.\\
+A realização de exames é um das principais atividades de um hospital, como forma de apoio ao diagnóstico e tratamento. Em Portugal existe por isso tempos máximos de resposta garantidos~\cite{saudeERSTemposMaximos}, medicina nuclear (MN) insere-se no meio complementar de diagnóstico e terapêutica, devendo ocorrer um exame desta natureza em menos de 30 dias a partir da indicação clínica. Com o aumento da procura destes meios~\cite{almenTrendsDiagnosticNuclear2025} é essencial assegurar os tempos máximos de resposta.\\
+
+\section{Apresentação do Problema e Objetivo}
+\label{sec:apresentação_do_problema_e_objetivo}
+
+Esta dissertação teve como motivação principal a melhoria da eficiência do departamento de MN do Hospital Garcia de Orta que, a priori, seria através da melhoria do agendamento de pacientes ao longo do dia de trabalho de forma a realizar um número maior de exames com os recursos humanos e físicos já existentes.\\
+Cada exame é composto por várias tarefas, na qual podem ser necessários vários recursos diferentes, não ocorrendo tempo de espera entre tarefas adjacentes de um mesmo exame.\\
+Esta dissertação pretende alcançar três objetivos: 
+\begin{enumerate}
+  \item O mapeamento dos exames mais frequentemente realizados, com possibilidade de mapear os exames que ocorrem com menor frequência;
+  \item A criação de ferramentas de apoio à decisão em contexto operacional;
+  \item A validação de resultados obtidos pelas ferramentas em termos de viabilidade e robustez.
+\end{enumerate}
+
+As ferramentas desenvolvidas pretender responder a duas perguntas: Quanto tempo é necessário para executar todos os exames; Quantos exames podem ser feitos com o tempo disponível.\\
+
+\section{Abordagem Metodológica}
+\label{sec:abordagem_metodológica}
+
+De forma a atingir os objetivos previamente referidos é necessário estruturar a abordagem metodológica. Será realizada uma revisão de literatura que abordará os tipos de problemas de agendamento e os respetivos métodos de resolução. De seguida serão mapeados e validados os exames, e posteriormente recolhidos dados relativos à duração de cada atividade. Seguidamente serão desenvolvidos os modelos de apoio à decisão já mencionados, com aplicação destes com os dados do sistema real com apresentação dos resultados obtidos, mas também a comparação de instâncias \textit{benchmark} existentes na literatura. Finalmente, serão propostos trabalhos futuros, e serão retiradas conclusões.\\

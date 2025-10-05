@@ -1,0 +1,5 @@
+PWD C:\Users\JAPGc\OneDrive\Ambiente de Trabalho\Universidade\5ºAno\Tese\novathesis-main\Chapters
+INPUT C:\Users\JAPGc\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT chapter6.tex
+OUTPUT chapter6.log
+INPUT C:\Users\JAPGc\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
