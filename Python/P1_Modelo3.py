@@ -602,7 +602,7 @@ def main(n_runs, n_threads, Lk, freeze_crit, temp_red, punish, ratio, pro_i):
     return Sequence, S_ik, F_ik, cost, time.time() - start_time_main, resource_usage
 
 
-_, _, _, _, _, _ = main(8, 4, 250, 55, 0.975, 0, 0.5, [3, 5, 10, 1, 10])
+_, _, _, _, _, _ = main(100, 10, 250, 55, 0.975, 0, 0.5, [3, 5, 10, 1, 10])
 
 """
 for Lk in [50, 150, 250]:
@@ -611,6 +611,6 @@ for Lk in [50, 150, 250]:
             for punish in [0]:
                 for ratio in [0.5, 0.7, 0.9]:
                     print(Lk, freeze_crit, temp_red, punish, ratio)
-                    _, _, _, _, _, _ = main(100, 10, 50, Lk, freeze_crit, temp_red, punish, ratio)
+                    _, _, _, _, _, _ = main(100, 10, Lk, freeze_crit, temp_red, punish, ratio, [3, 5, 10, 1, 10])
                     print("\n")
 """
