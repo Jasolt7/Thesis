@@ -1,0 +1,2452 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{meskarpouramiriSystematicReviewFactors2021}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=2f27fdcaa808f2aa091f469fc5accbcf}{%
+           family={Meskarpour\bibnamedelima Amiri},
+           familyi={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0b7a0d97527967984a70456d9452adef}{%
+           family={Kazemian},
+           familyi={K\bibinitperiod},
+           given={Mahmood},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b89a916b4214a2bf12fd70ef0370032a}{%
+           family={Motaghed},
+           familyi={M\bibinitperiod},
+           given={Zahra},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=c19f181301d6d4eaa53b4774291d97e1}{%
+           family={Abdi},
+           familyi={A\bibinitperiod},
+           given={Zhaleh},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ffb1b61be42537e53a6297d824fb730}
+      \strng{fullhash}{2b6174cda78a53dd840275e3aed2667d}
+      \strng{fullhashraw}{2b6174cda78a53dd840275e3aed2667d}
+      \strng{bibnamehash}{2b6174cda78a53dd840275e3aed2667d}
+      \strng{authorbibnamehash}{2b6174cda78a53dd840275e3aed2667d}
+      \strng{authornamehash}{6ffb1b61be42537e53a6297d824fb730}
+      \strng{authorfullhash}{2b6174cda78a53dd840275e3aed2667d}
+      \strng{authorfullhashraw}{2b6174cda78a53dd840275e3aed2667d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Objectives Rapid growth of Health Care Expenditures (HCE) has become one of the main challenges for the sustainability of public finances worldwide. The persistent growth of HCE and concerns about its long-term fiscal sustainability highlight the necessity for policymakers to formulate effective cost containment strategies. To this end, identifying the factors that determine the growth of HCE and their size of impact is the first and most important step in curbing HCE growth. The purpose of this systematic review was to identify the factors considered as determinants of HCE at the national level and to report their significance. Methods This study reviewed the empirical literature on determinants of HCE. Electronic databases including Scopus (Elsevier), PubMed/Medline, and ISI (Web of Science) were searched to retrieve articles published until November 2017. Results Thirty six primary articles met the eligibility criteria and were included in this review. Based on the findings, a wide range of factors explaining HCE growth including socio-demographic, economic, technological, environmental and lifestyle factors, factors associated with the epidemiological transition and changing patterns of diseases, factors related to the provision for health services, and factors concerning the administration and design of the health sector. Conclusions The review suggests the need for considering a wider range of issues while investigating HCE drivers, thereby shifting from factors traditionally considered as drivers of HCE to other explaining elements that their effects on HCE growth has been rarely examined. Although the trends and determinants of HCE have been widely examined in high-income countries, limited number of studies have investigated the issue at the aggregate level in developing countries.}
+      \field{issn}{2211-8837}
+      \field{journaltitle}{Health Policy and Technology}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Systematic Review of Factors Determining Health Care Expenditures}
+      \field{urlday}{16}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{10}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{100498}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.hlpt.2021.01.004
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\PPIV94H2\\Meskarpour Amiri et al. - 2021 - Systematic review of factors determining health care expenditures.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\6RWPJPAB\\S2211883721000083.html;C\:\\Users\\JAPGc\\Zotero\\storage\\VJSEDHP7\\S2211883721000083.html
+      \endverb
+      \keyw{Determinant,Health care expenditures,Systematic review}
+    \endentry
+    \entry{saudeERSTemposMaximos}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=a26b77dd21acc5936bcca2d7c14f1bbf}{%
+           family={Saúde},
+           familyi={S\bibinitperiod},
+           given={Entidade\bibnamedelima Reguladora},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{a26b77dd21acc5936bcca2d7c14f1bbf}
+      \strng{fullhash}{a26b77dd21acc5936bcca2d7c14f1bbf}
+      \strng{fullhashraw}{a26b77dd21acc5936bcca2d7c14f1bbf}
+      \strng{bibnamehash}{a26b77dd21acc5936bcca2d7c14f1bbf}
+      \strng{authorbibnamehash}{a26b77dd21acc5936bcca2d7c14f1bbf}
+      \strng{authornamehash}{a26b77dd21acc5936bcca2d7c14f1bbf}
+      \strng{authorfullhash}{a26b77dd21acc5936bcca2d7c14f1bbf}
+      \strng{authorfullhashraw}{a26b77dd21acc5936bcca2d7c14f1bbf}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Entidade Reguladora da Saúde}
+      \field{howpublished}{https://www.ers .pt/pt/utentes/perguntas-frequentes/faq/tempos-maximos-de-resposta-garantidos-tmrg/}
+      \field{langid}{portuguese}
+      \field{title}{{ERS - Tempos Máximos de Resposta Garantidos (TMRG)}}
+      \field{urlday}{16}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\JAPGc\Zotero\storage\GPXQTXHF\tempos-maximos-de-resposta-garantidos-tmrg.html
+      \endverb
+    \endentry
+    \entry{almenTrendsDiagnosticNuclear2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=0948536547ecc1011f4818034a2ffffd}{%
+           family={Almén},
+           familyi={A\bibinitperiod},
+           given={Anja},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0948536547ecc1011f4818034a2ffffd}
+      \strng{fullhash}{0948536547ecc1011f4818034a2ffffd}
+      \strng{fullhashraw}{0948536547ecc1011f4818034a2ffffd}
+      \strng{bibnamehash}{0948536547ecc1011f4818034a2ffffd}
+      \strng{authorbibnamehash}{0948536547ecc1011f4818034a2ffffd}
+      \strng{authornamehash}{0948536547ecc1011f4818034a2ffffd}
+      \strng{authorfullhash}{0948536547ecc1011f4818034a2ffffd}
+      \strng{authorfullhashraw}{0948536547ecc1011f4818034a2ffffd}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Diagnostic imaging is a dynamic medical field. In nuclear medicine, advancements introduce new procedures utilising innovative radiopharmaceuticals. These developments may influence supply requirements and exposure levels for the patient population. Surveying the frequency of procedures, types of pharmaceuticals, and administered activities provides valuable insights into utilisation trends and radionuclide demand. This knowledge also guides the prioritisation of radiation protection efforts at national and local levels. In Europe, radiation dose assessments for medical exposures are mandatory according to the directive{´}s requirements.}
+      \field{issn}{2197-7364}
+      \field{journaltitle}{EJNMMI Physics}
+      \field{month}{4}
+      \field{number}{1}
+      \field{shorttitle}{Trends in Diagnostic Nuclear Medicine in {{Sweden}} (2008--2023)}
+      \field{title}{Trends in Diagnostic Nuclear Medicine in {{Sweden}} (2008--2023): Utilisation, Radiation Dose, and Methodological Insights}
+      \field{urlday}{21}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{12}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{32}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s40658-025-00747-2
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\3CAYH4TY\\Almén - 2025 - Trends in diagnostic nuclear medicine in Sweden (2008–2023) utilisation, radiation dose, and method.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\6X5A3UWI\\s40658-025-00747-2.html;C\:\\Users\\JAPGc\\Zotero\\storage\\D8THTWTT\\s40658-025-00747-2.html
+      \endverb
+      \keyw{National survey,Population dose,Radiation dose,Radiation protection,Trends,Utilisation}
+    \endentry
+    \entry{dauzere-peresFlexibleJobShop2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=f5592b6ec79128d6e32cdb850737e784}{%
+           family={{Dauzère-Pérès}},
+           familyi={D\bibinitperiod},
+           given={Stéphane},
+           giveni={S\bibinitperiod}}}%
+        {{hash=246803c6a8e294e7fa6e8e03d51967f5}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Junwen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=adef3e874ecb051fc3c17d805a2c0e94}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Liji},
+           giveni={L\bibinitperiod}}}%
+        {{hash=077eacb2ad6c85e2520970c98d2834d3}{%
+           family={Tamssaouet},
+           familyi={T\bibinitperiod},
+           given={Karim},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{1bc12228d8db3c72a48cbb6131e7401d}
+      \strng{fullhash}{41a3e72b1b5c1babd489da6de29d051e}
+      \strng{fullhashraw}{41a3e72b1b5c1babd489da6de29d051e}
+      \strng{bibnamehash}{41a3e72b1b5c1babd489da6de29d051e}
+      \strng{authorbibnamehash}{41a3e72b1b5c1babd489da6de29d051e}
+      \strng{authornamehash}{1bc12228d8db3c72a48cbb6131e7401d}
+      \strng{authorfullhash}{41a3e72b1b5c1babd489da6de29d051e}
+      \strng{authorfullhashraw}{41a3e72b1b5c1babd489da6de29d051e}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The flexible job shop scheduling problem (FJSP) is an NP-hard combinatorial optimization problem, which has wide applications in the real world. The complexity and relevance of the FJSP have led to numerous research works on its modeling and resolution. This paper reviews some of the research of the past 30 years on the problem, by presenting and classifying the different criteria, constraints, configurations and solution approaches that have been considered. Recent emerging topics on complex shop scheduling, multi-criteria optimization and uncertain and dynamic environments are discussed. Finally, future research opportunities are proposed.}
+      \field{issn}{0377-2217}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{month}{4}
+      \field{note}{Fala sobre as restrições extras que pode haver, e tem bastantes artigos citados com no-wait e blocking-}
+      \field{number}{2}
+      \field{shorttitle}{The Flexible Job Shop Scheduling Problem}
+      \field{title}{The Flexible Job Shop Scheduling Problem: {{A}} Review}
+      \field{urlday}{6}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{314}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{409\bibrangedash 432}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1016/j.ejor.2023.05.017
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\3MNR4PEN\\Dauzère-Pérès et al. - 2024 - The flexible job shop scheduling problem A review.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\E99CTQIA\\S037722172300382X.html
+      \endverb
+      \keyw{Constraints,Criteria,Flexible job shop,Scheduling,Survey}
+    \endentry
+    \entry{bruckerJobshopSchedulingMultipurpose1990}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=a1c24d399a8fe9b3541ffb3564fa3426}{%
+           family={Brucker},
+           familyi={B\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=118a06c7e25610dea1119262171af9fa}{%
+           family={Schlie},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{169fd9d550fc01e1f15bf9ce98e401fd}
+      \strng{fullhash}{169fd9d550fc01e1f15bf9ce98e401fd}
+      \strng{fullhashraw}{169fd9d550fc01e1f15bf9ce98e401fd}
+      \strng{bibnamehash}{169fd9d550fc01e1f15bf9ce98e401fd}
+      \strng{authorbibnamehash}{169fd9d550fc01e1f15bf9ce98e401fd}
+      \strng{authornamehash}{169fd9d550fc01e1f15bf9ce98e401fd}
+      \strng{authorfullhash}{169fd9d550fc01e1f15bf9ce98e401fd}
+      \strng{authorfullhashraw}{169fd9d550fc01e1f15bf9ce98e401fd}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Consider the following generalization of the classical job-shop scheduling problem in which a set of machines is associated with each operation of a job. The operation can be processed on any of the machines in this set. For each assignment {$\mu$} of operations to machines letP({$\mu$}) be the corresponding job-shop problem andf({$\mu$}) be the minimum makespan ofP({$\mu$}). How to find an assignment which minimizesf({$\mu$})? For problems with two jobs a polynomial algorithm is derived.}
+      \field{issn}{1436-5057}
+      \field{journaltitle}{Computing}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{4}
+      \field{title}{Job-Shop Scheduling with Multi-Purpose Machines}
+      \field{urlday}{24}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{45}
+      \field{year}{1990}
+      \field{urldateera}{ce}
+      \field{pages}{369\bibrangedash 375}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1007/BF02238804
+      \endverb
+      \verb{file}
+      \verb C:\Users\JAPGc\Zotero\storage\T3JDVD3V\Brucker e Schlie - 1990 - Job-shop scheduling with multi-purpose machines.pdf
+      \endverb
+      \keyw{90 B 35,Algorithms,Electrical Machines,flexible manufacturing,Job-Shop scheduling,Machine Tools,Machines Tools Processes,Machining,Operations Management,shortest path}
+    \endentry
+    \entry{brandimarteRoutingSchedulingFlexible1993}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=deee1415c484dbda25e9629c9d17a608}{%
+           family={Brandimarte},
+           familyi={B\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{deee1415c484dbda25e9629c9d17a608}
+      \strng{fullhash}{deee1415c484dbda25e9629c9d17a608}
+      \strng{fullhashraw}{deee1415c484dbda25e9629c9d17a608}
+      \strng{bibnamehash}{deee1415c484dbda25e9629c9d17a608}
+      \strng{authorbibnamehash}{deee1415c484dbda25e9629c9d17a608}
+      \strng{authornamehash}{deee1415c484dbda25e9629c9d17a608}
+      \strng{authorfullhash}{deee1415c484dbda25e9629c9d17a608}
+      \strng{authorfullhashraw}{deee1415c484dbda25e9629c9d17a608}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A hierarchical algorithm for the flexible job shop scheduling problem is described, based on the tabu search metaheuristic. Hierarchical strategies have been proposed in the literature for complex scheduling problems, and the tabu search metaheuristic, being able to cope with different memory levels, provides a natural background for the development of a hierarchical algorithm. For the case considered, a two level approach has been devised, based on the decomposition in a routing and a job shop scheduling subproblem, which is obtained by assigning each operation of each job to one among the equivalent machines. Both problems are tackled by tabu search. Coordination issues between the two hierarchical levels are considered. Unlike other hierarchical schemes, which are based on a one-way information flow, the one proposed here is based on a two-way information flow. This characteristic, together with the flexibility of local search strategies like tabu search, allows to adapt the same basic algorithm to different objective functions. Preliminary computational experience is reported.}
+      \field{issn}{1572-9338}
+      \field{journaltitle}{Annals of Operations Research}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{Routing and Scheduling in a Flexible Job Shop by Tabu Search}
+      \field{urlday}{9}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{41}
+      \field{year}{1993}
+      \field{urldateera}{ce}
+      \field{pages}{157\bibrangedash 183}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1007/BF02023073
+      \endverb
+      \verb{file}
+      \verb C:\Users\JAPGc\Zotero\storage\WSPUGCLZ\Brandimarte - 1993 - Routing and scheduling in a flexible job shop by tabu search.pdf
+      \endverb
+      \keyw{Hierarchical Algorithm,Hierarchical Scheme,Local Search Strategy,Schedule Problem,Tabu Search}
+    \endentry
+    \entry{bruckerTabusearchMultimodeJobshop1998}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=373121fe1e94871b2272a3840f703686}{%
+           family={Brucker},
+           familyi={B\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5ea049a39bf0182f9024c85874e8125e}{%
+           family={Neyer},
+           familyi={N\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{2afba5cebb10e3bb05f474b6894a46a4}
+      \strng{fullhash}{2afba5cebb10e3bb05f474b6894a46a4}
+      \strng{fullhashraw}{2afba5cebb10e3bb05f474b6894a46a4}
+      \strng{bibnamehash}{2afba5cebb10e3bb05f474b6894a46a4}
+      \strng{authorbibnamehash}{2afba5cebb10e3bb05f474b6894a46a4}
+      \strng{authornamehash}{2afba5cebb10e3bb05f474b6894a46a4}
+      \strng{authorfullhash}{2afba5cebb10e3bb05f474b6894a46a4}
+      \strng{authorfullhashraw}{2afba5cebb10e3bb05f474b6894a46a4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In a multi-processor-tasks job-shop problem (MPTJSP) there is a machine set associated with each operation. All machines are needed for the whole processing period to process the operation. The objective is to find a schedule which minimizes the makespan. In a multi-mode job-shop problem (MMJSP) there is a set of machine sets associated with each operation. One has to assign a machine set to each operation and to solve the resulting MPTJSP such that the resulting makespan is minimized. For the MMJSP a tabu-search algorithm is presented. Computational results are reported.}
+      \field{issn}{1436-6304}
+      \field{journaltitle}{Operations-Research-Spektrum}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{Tabu-Search for the Multi-Mode Job-Shop Problem}
+      \field{urlday}{26}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{20}
+      \field{year}{1998}
+      \field{urldateera}{ce}
+      \field{pages}{21\bibrangedash 28}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1007/BF01545525
+      \endverb
+      \verb{file}
+      \verb C:\Users\JAPGc\Zotero\storage\EXRVKK2L\Brucker e Neyer - 1998 - Tabu-search for the multi-mode job-shop problem.pdf
+      \endverb
+      \keyw{Algorithms,Automation,Business Process Management,Discrete Optimization,IT Operations,Mehrmodus-Job-Shop,Mehrprozessoroperationen-Job-Shop,Mehrzweckmaschinen-Job-Shop,multi-mode job-shop,multi-purpose-machine job-shop,multiprocessor-task job-shop,Optimization,Tabu-search,Tabu-Suche}
+    \endentry
+    \entry{dauzere-peresMultiresourceShopScheduling1998}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=30861268df5781dbb036481b8b68c450}{%
+           family={{Dauzère-Pérès}},
+           familyi={D\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=35c7aa478a9a9183fc33132a05da5d2b}{%
+           family={Roux},
+           familyi={R\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=8a210b4841d0e20dc16d8e705d2d9cc7}{%
+           family={Lasserre},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ab1cb4cfffda5caa8d1a85290b0fb24}
+      \strng{fullhash}{77739493b377c5878dbe8414588dbbca}
+      \strng{fullhashraw}{77739493b377c5878dbe8414588dbbca}
+      \strng{bibnamehash}{77739493b377c5878dbe8414588dbbca}
+      \strng{authorbibnamehash}{77739493b377c5878dbe8414588dbbca}
+      \strng{authornamehash}{6ab1cb4cfffda5caa8d1a85290b0fb24}
+      \strng{authorfullhash}{77739493b377c5878dbe8414588dbbca}
+      \strng{authorfullhashraw}{77739493b377c5878dbe8414588dbbca}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The shop scheduling problem tackled in this paper integrates many features that can be found in practical settings. Every operation may need several resources to be performed, and furthermore, a resource may be selected in a given set of candidates resources. Finally, we also consider that an operation may have more than one predecessor and/or more than one successor on the routing. The problem is then to both assign operations to resources and sequence operations on the resources, in order to minimize the maximum completion time. A disjunctive graph representation of this problem is presented and a connected neighborhood structure is proposed. The latter can be used to derive a local search algorithm such as tabu search. Finally, some numerical experiments are presented and discussed.}
+      \field{issn}{0377-2217}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Multi-Resource Shop Scheduling with Resource Flexibility}
+      \field{urlday}{8}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{107}
+      \field{year}{1998}
+      \field{urldateera}{ce}
+      \field{pages}{289\bibrangedash 305}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/S0377-2217(97)00341-X
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\D33JYSX8\\Dauzère-Pérès et al. - 1998 - Multi-resource shop scheduling with resource flexibility.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\KNKXI57M\\S037722179700341X.html;C\:\\Users\\JAPGc\\Zotero\\storage\\L5AGQF3W\\S037722179700341X.html
+      \endverb
+      \keyw{Heuristics,Multi-resource,Optimisation,Resource flexibility,Scheduling theory}
+    \endentry
+    \entry{callahanNothingHotDelay1971}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=05293405615a6bbebd219c8eb17b781e}{%
+           family={Callahan},
+           familyi={C\bibinitperiod},
+           given={John\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {[Toronto]}%
+      }
+      \strng{namehash}{05293405615a6bbebd219c8eb17b781e}
+      \strng{fullhash}{05293405615a6bbebd219c8eb17b781e}
+      \strng{fullhashraw}{05293405615a6bbebd219c8eb17b781e}
+      \strng{bibnamehash}{05293405615a6bbebd219c8eb17b781e}
+      \strng{authorbibnamehash}{05293405615a6bbebd219c8eb17b781e}
+      \strng{authornamehash}{05293405615a6bbebd219c8eb17b781e}
+      \strng{authorfullhash}{05293405615a6bbebd219c8eb17b781e}
+      \strng{authorfullhashraw}{05293405615a6bbebd219c8eb17b781e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Open Library ID: OL19839735M}
+      \field{note}{Open Library ID: OL19839735M}
+      \field{title}{The Nothing Hot Delay Problem in the Production of Steel.}
+      \field{year}{1971}
+      \keyw{Steel -- Metallurgy,Steel ingots}
+    \endentry
+    \entry{jiangReviewIntelligentScheduling2023}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=afd6de30ce9fde696cfacd1c50bf1dd8}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Bin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=88e7a1eb2aba65691884f0559c7d1f75}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Yajie},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4000d0a1c1f244d0dd439be0e235bfa5}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Lijun},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0fc204e5c75bb189f6c166ffa0f74f35}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Binda},
+           giveni={B\bibinitperiod}}}%
+        {{hash=874baf238eb8c5b40211c7ad3f58e445}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Yuying},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=9f61f4d20d3ca9e53e445d91a7663b0d}{%
+           family={Guan},
+           familyi={G\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{97979ff189e77848ab99b3ad8dc018ba}
+      \strng{fullhash}{31f28e18c8a2cab2fa79132861671c44}
+      \strng{fullhashraw}{31f28e18c8a2cab2fa79132861671c44}
+      \strng{bibnamehash}{31f28e18c8a2cab2fa79132861671c44}
+      \strng{authorbibnamehash}{31f28e18c8a2cab2fa79132861671c44}
+      \strng{authornamehash}{97979ff189e77848ab99b3ad8dc018ba}
+      \strng{authorfullhash}{31f28e18c8a2cab2fa79132861671c44}
+      \strng{authorfullhashraw}{31f28e18c8a2cab2fa79132861671c44}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Flexible job shop scheduling problem is a NP-hard combinatorial optimization problem, which has significant applications in the field of workshop scheduling and intelligent manufacturing. Due to its complexity and significance, lots of attention have been paid to tackle this problem. This paper reviews some of the researches on this problem, by presenting and classifying the different criteria, constraints, and solution approaches. The existing solution methods for the flexible job shop scheduling problem in this literature are classified into exact algorithms, heuristics, and meta-heuristics, which are thoroughly reviewed. Particularly, the paper highlights the flexible job shop scheduling problem in the context of dynamic events and preventive maintenance. These dynamic events, such as machine breakdowns and unexpected changes in job requirements, present additional challenges to the scheduling problem. Furthermore, this paper analyzes the development trends in the manufacturing industry and summarizes detailed future research opportunities for the flexible job shop scheduling problem.}
+      \field{issn}{2005-4092}
+      \field{journaltitle}{International Journal of Control, Automation and Systems}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{A {{Review}} on {{Intelligent Scheduling}} and {{Optimization}} for {{Flexible Job Shop}}}
+      \field{urlday}{10}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{21}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{3127\bibrangedash 3150}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1007/s12555-023-0578-1
+      \endverb
+      \verb{file}
+      \verb C:\Users\JAPGc\Zotero\storage\6VMFIAFA\Jiang et al. - 2023 - A Review on Intelligent Scheduling and Optimization for Flexible Job Shop.pdf
+      \endverb
+      \keyw{Business Process Management,Discrete Optimization,Dynamic scheduling,flexible job shop scheduling,intelligent optimization,Machining,Operations Management,Optimization,preventive maintenance,Problem Solving,static scheduling}
+    \endentry
+    \entry{kuMixedIntegerProgramming2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=8b851a43cb9b95b35b08c4ba83989d9e}{%
+           family={Ku},
+           familyi={K\bibinitperiod},
+           given={Wen-Yang},
+           giveni={W\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=c3e57af827f0d80a163961011b33c6b0}{%
+           family={Beck},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi Christopher},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{69a936ff4b6489f38ddfbe31b1acfe4c}
+      \strng{fullhash}{69a936ff4b6489f38ddfbe31b1acfe4c}
+      \strng{fullhashraw}{69a936ff4b6489f38ddfbe31b1acfe4c}
+      \strng{bibnamehash}{69a936ff4b6489f38ddfbe31b1acfe4c}
+      \strng{authorbibnamehash}{69a936ff4b6489f38ddfbe31b1acfe4c}
+      \strng{authornamehash}{69a936ff4b6489f38ddfbe31b1acfe4c}
+      \strng{authorfullhash}{69a936ff4b6489f38ddfbe31b1acfe4c}
+      \strng{authorfullhashraw}{69a936ff4b6489f38ddfbe31b1acfe4c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In both industry and the research literature, Mixed Integer Programming (MIP) is often the default approach for solving scheduling problems. In this paper we present and evaluate four MIP formulations for the classical job shop scheduling problem (JSP). While MIP formulations for the JSP have existed since the 1960s, it appears that comprehensive computational studies have not been performed since then. Due to substantial improvements in MIP technology in recent years, it is of interest to compare the standard JSP models using modern optimization software. We perform a fully crossed empirical study of four MIP models using CPLEX, GUROBI and SCIP, focusing on both the number of instances that can be proved optimal and the solution quality over time. Our results demonstrate that modern MIP solvers are able to prove optimality for moderate-sized problems very quickly. Comparing the four MIP models, the disjunctive formulation proposed by Manne performs best on both performance measures. We also investigate the performance of MIP with multi-threading and parameter tuning using CPLEX. Noticeable performance gain is observed when compared to the results using only single thread and default parameter settings. Our results serve as a snapshot of the performance of modern MIP solvers for an important, well-studied scheduling problem. Finally, the results of MIP is compared to constraint programming (CP), another common approach for scheduling, and the best known complete algorithm to provide a broad view among different approaches.}
+      \field{issn}{0305-0548}
+      \field{journaltitle}{Computers \& Operations Research}
+      \field{month}{9}
+      \field{shorttitle}{Mixed {{Integer Programming}} Models for Job Shop Scheduling}
+      \field{title}{Mixed {{Integer Programming}} Models for Job Shop Scheduling: {{A}} Computational Analysis}
+      \field{urlday}{7}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{73}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{165\bibrangedash 173}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.cor.2016.04.006
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\XEE2NR84\\Ku and Beck - 2016 - Mixed Integer Programming models for job shop scheduling A computational analysis.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\LQNHEXR5\\S0305054816300764.html
+      \endverb
+      \keyw{Constraint programming,Job shop scheduling,Mixed Integer Programming}
+    \endentry
+    \entry{manneJobShopSchedulingProblem1960}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=373cb59877fa195e63c594ea4fa9f6e9}{%
+           family={Manne},
+           familyi={M\bibinitperiod},
+           given={Alan\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {INFORMS}%
+      }
+      \strng{namehash}{373cb59877fa195e63c594ea4fa9f6e9}
+      \strng{fullhash}{373cb59877fa195e63c594ea4fa9f6e9}
+      \strng{fullhashraw}{373cb59877fa195e63c594ea4fa9f6e9}
+      \strng{bibnamehash}{373cb59877fa195e63c594ea4fa9f6e9}
+      \strng{authorbibnamehash}{373cb59877fa195e63c594ea4fa9f6e9}
+      \strng{authornamehash}{373cb59877fa195e63c594ea4fa9f6e9}
+      \strng{authorfullhash}{373cb59877fa195e63c594ea4fa9f6e9}
+      \strng{authorfullhashraw}{373cb59877fa195e63c594ea4fa9f6e9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This is a proposal for the application of discrete linear programming to the typical job-shop scheduling problem---one that involves both sequencing restrictions and also noninterference constraints for individual pieces of equipment. Thus far, no attempt has been made to establish the computational feasibility of the approach in the case of large-scale realistic problems. This formulation seems, however, to involve considerably fewer variables than two other recent proposals [Bowman, E. H. 1959. The schedule-sequencing problem. Opns Res.7 621--624; Wagner, H. 1959. An integer linear-programming model for machine scheduling. Naval Res. Log. Quart. (June).], and on these grounds may be worth some computer experimentation.}
+      \field{issn}{0030-364X}
+      \field{journaltitle}{Operations Research}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{On the {{Job-Shop Scheduling Problem}}}
+      \field{urlday}{11}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{8}
+      \field{year}{1960}
+      \field{urldateera}{ce}
+      \field{pages}{219\bibrangedash 223}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1287/opre.8.2.219
+      \endverb
+      \verb{file}
+      \verb C:\Users\JAPGc\Zotero\storage\5D3VV3FE\Manne - 1960 - On the Job-Shop Scheduling Problem.pdf
+      \endverb
+    \endentry
+    \entry{bowmanScheduleSequencingProblem1959}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=2c1c370ef8324fdea8ea990e0c252827}{%
+           family={Bowman},
+           familyi={B\bibinitperiod},
+           given={Edward\bibnamedelima H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {INFORMS}%
+      }
+      \strng{namehash}{2c1c370ef8324fdea8ea990e0c252827}
+      \strng{fullhash}{2c1c370ef8324fdea8ea990e0c252827}
+      \strng{fullhashraw}{2c1c370ef8324fdea8ea990e0c252827}
+      \strng{bibnamehash}{2c1c370ef8324fdea8ea990e0c252827}
+      \strng{authorbibnamehash}{2c1c370ef8324fdea8ea990e0c252827}
+      \strng{authornamehash}{2c1c370ef8324fdea8ea990e0c252827}
+      \strng{authorfullhash}{2c1c370ef8324fdea8ea990e0c252827}
+      \strng{authorfullhashraw}{2c1c370ef8324fdea8ea990e0c252827}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A tentative solution to the general schedule-sequencing problem is presented in a linear-programming form. Feasible solutions hinge on work recently presented on integer solutions to linear-program...}
+      \field{journaltitle}{Operations Research}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{The {{Schedule-Sequencing Problem}}}
+      \field{urlday}{11}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{year}{1959}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1287/opre.7.5.621
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\ZLC7Y75J\\Bowman - 1959 - The Schedule-Sequencing Problem.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\KMYIW5GD\\opre.7.5.html
+      \endverb
+    \endentry
+    \entry{wagnerIntegerLinearprogrammingModel1959}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=bfee27d8c27dfcee78a285116d777f17}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Harvey\bibnamedelima M.},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{bfee27d8c27dfcee78a285116d777f17}
+      \strng{fullhash}{bfee27d8c27dfcee78a285116d777f17}
+      \strng{fullhashraw}{bfee27d8c27dfcee78a285116d777f17}
+      \strng{bibnamehash}{bfee27d8c27dfcee78a285116d777f17}
+      \strng{authorbibnamehash}{bfee27d8c27dfcee78a285116d777f17}
+      \strng{authornamehash}{bfee27d8c27dfcee78a285116d777f17}
+      \strng{authorfullhash}{bfee27d8c27dfcee78a285116d777f17}
+      \strng{authorfullhashraw}{bfee27d8c27dfcee78a285116d777f17}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1931-9193}
+      \field{journaltitle}{Naval Research Logistics Quarterly}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{title}{An Integer Linear-Programming Model for Machine Scheduling}
+      \field{urlday}{11}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{6}
+      \field{year}{1959}
+      \field{urldateera}{ce}
+      \field{pages}{131\bibrangedash 140}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1002/nav.3800060205
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\23ZXELHX\\Wagner - 1959 - An integer linear-programming model for machine scheduling.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\YCVRJAXD\\nav.html
+      \endverb
+    \endentry
+    \entry{kasapidisFlexibleJobShop2021}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=d5bbb59315608c5e1e53983a5d9ba227}{%
+           family={Kasapidis},
+           familyi={K\bibinitperiod},
+           given={Gregory\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9c08096def58b71cc1c00d7141adf641}{%
+           family={Paraskevopoulos},
+           familyi={P\bibinitperiod},
+           given={Dimitris\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=74dee2ea494244702c998dcdbdbe141e}{%
+           family={Repoussis},
+           familyi={R\bibinitperiod},
+           given={Panagiotis\bibnamedelima P.},
+           giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=97efa7a36242596f34082a0fe27db613}{%
+           family={Tarantilis},
+           familyi={T\bibinitperiod},
+           given={Christos\bibnamedelima D.},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications}%
+      }
+      \strng{namehash}{bec45a461bd7ce3b5d8d18a5ad5468eb}
+      \strng{fullhash}{c585747e493f664ae53647e6cfc889d8}
+      \strng{fullhashraw}{c585747e493f664ae53647e6cfc889d8}
+      \strng{bibnamehash}{c585747e493f664ae53647e6cfc889d8}
+      \strng{authorbibnamehash}{c585747e493f664ae53647e6cfc889d8}
+      \strng{authornamehash}{bec45a461bd7ce3b5d8d18a5ad5468eb}
+      \strng{authorfullhash}{c585747e493f664ae53647e6cfc889d8}
+      \strng{authorfullhashraw}{c585747e493f664ae53647e6cfc889d8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A common assumption in the shop scheduling literature is that the processing order of the operations of each job is sequential; however, in practice, there can be multiple connections and finish-to-start dependencies among the operations of each job. This paper studies flexible job shop scheduling problems with arbitrary precedence graphs. Rigorous mixed integer and constraint programming models are presented, as well as an evolutionary algorithm is proposed to solve large-scale problems. The proposed heuristic solution framework is equipped with efficient evolution and local search mechanisms as well as new feasibility detection and makespan estimation methods. To that end, new theorems are derived that extend previous theoretical contributions of the literature. Computational experiments on existing benchmark datasets show that the proposed solution methods outperform the current state-of-the-art. Overall, 59 new best solutions and 61 new lower bounds are produced for a total of 228 benchmark problem instances of the literature. To explore the impact of the arbitrary precedence graphs, lower bounds and heuristic solutions are generated for new large-scale problems. These experiments illustrate that the machine assignment flexibility and density of the precedence graphs, affect not only the makespan, but also the difficulty of producing good upper bounds.}
+      \field{issn}{1059-1478}
+      \field{journaltitle}{Production and Operations Management}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Flexible {{Job Shop Scheduling Problems}} with {{Arbitrary Precedence Graphs}}}
+      \field{urlday}{21}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{30}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{4044\bibrangedash 4068}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1111/poms.13501
+      \endverb
+      \verb{file}
+      \verb C:\Users\JAPGc\Zotero\storage\KF7UKLXE\Kasapidis et al. - 2021 - Flexible Job Shop Scheduling Problems with Arbitrary Precedence Graphs.pdf
+      \endverb
+    \endentry
+    \entry{ezugwuMetaheuristicsComprehensiveOverview2021}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=7d0212acf93bc31f5ada23a3e50b1841}{%
+           family={Ezugwu},
+           familyi={E\bibinitperiod},
+           given={Absalom\bibnamedelima E.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=6d449ac9d968e4f432a0de478452da21}{%
+           family={Shukla},
+           familyi={S\bibinitperiod},
+           given={Amit\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=ad7f1adfa9e3640e41cb2733df27e470}{%
+           family={Nath},
+           familyi={N\bibinitperiod},
+           given={Rahul},
+           giveni={R\bibinitperiod}}}%
+        {{hash=34921b68377a5c6967b47deb564857ae}{%
+           family={Akinyelu},
+           familyi={A\bibinitperiod},
+           given={Andronicus\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e382b5203103f6f3ca38608b90d8f838}{%
+           family={Agushaka},
+           familyi={A\bibinitperiod},
+           given={Jeffery\bibnamedelima O.},
+           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=73e15a33313ddf1458ee2085778217c6}{%
+           family={Chiroma},
+           familyi={C\bibinitperiod},
+           given={Haruna},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b8ef0766f17cbb81c2531419cb9b3d8e}{%
+           family={Muhuri},
+           familyi={M\bibinitperiod},
+           given={Pranab\bibnamedelima K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{807259ce4e143ec9eeff43ec37ef7da0}
+      \strng{fullhash}{2b28f471e43a06cfccc35d7cb0cf8af9}
+      \strng{fullhashraw}{2b28f471e43a06cfccc35d7cb0cf8af9}
+      \strng{bibnamehash}{807259ce4e143ec9eeff43ec37ef7da0}
+      \strng{authorbibnamehash}{807259ce4e143ec9eeff43ec37ef7da0}
+      \strng{authornamehash}{807259ce4e143ec9eeff43ec37ef7da0}
+      \strng{authorfullhash}{2b28f471e43a06cfccc35d7cb0cf8af9}
+      \strng{authorfullhashraw}{2b28f471e43a06cfccc35d7cb0cf8af9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Research in metaheuristics for global optimization problems are currently experiencing an overload of wide range of available metaheuristic-based solution approaches. Since the commencement of the first set of classical metaheuristic algorithms namely genetic, particle swarm optimization, ant colony optimization, simulated annealing and tabu search in the early 70s to late 90s, several new advancements have been recorded with an exponential growth in the novel proposals of new generation metaheuristic algorithms. Because these algorithms are neither entirely judged based on their performance values nor according to the useful insight they may provide, but rather the attention is given to the novelty of the processes they purportedly models, these area of study will continue to periodically see the arrival of several new similar techniques in the future. However, there is an obvious reason to keep track of the progressions of these algorithms by collating their general algorithmic profiles in terms of design inspirational source, classification based on swarm or evolutionary search concept, existing variation from the original design, and application areas. In this paper, we present a relatively new taxonomic classification list of both classical and new generation sets of metaheuristic algorithms available in the literature, with the aim of providing an easily accessible collection of popular optimization tools for the global optimization research community who are at the forefront in utilizing these tools for solving complex and difficult real-world problems. Furthermore, we also examined the bibliometric analysis of this field of metaheuristic for the last 30~years.}
+      \field{issn}{1573-7462}
+      \field{journaltitle}{Artificial Intelligence Review}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{6}
+      \field{shorttitle}{Metaheuristics}
+      \field{title}{Metaheuristics: A Comprehensive Overview and Classification along with Bibliometric Analysis}
+      \field{urlday}{10}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{54}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{4237\bibrangedash 4316}
+      \range{pages}{80}
+      \verb{doi}
+      \verb 10.1007/s10462-020-09952-0
+      \endverb
+      \verb{file}
+      \verb C:\Users\JAPGc\Zotero\storage\W9EVJ434\Ezugwu et al. - 2021 - Metaheuristics a comprehensive overview and classification along with bibliometric analysis.pdf
+      \endverb
+      \keyw{Algorithms,Application areas,Bibliometric,Classification,Computational Intelligence,Continuous Optimization,Discrete Optimization,Genome assembly algorithms,Inspirational source,Learning algorithms,Metaheuristics,Taxonomy}
+    \endentry
+    \entry{metropolisEquationStateCalculations1953}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=2b73f47a1a84dd52f45fe57c381c3786}{%
+           family={Metropolis},
+           familyi={M\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=8f2d64584d53ec74892cb43a030d890b}{%
+           family={Rosenbluth},
+           familyi={R\bibinitperiod},
+           given={Arianna\bibnamedelima W.},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=19853e2ef86f6c052dc24bbd3c764f76}{%
+           family={Rosenbluth},
+           familyi={R\bibinitperiod},
+           given={Marshall\bibnamedelima N.},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=6fc89324948d311f731ac42029f909c2}{%
+           family={Teller},
+           familyi={T\bibinitperiod},
+           given={Augusta\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=e22e18e792a0fca9678ed7c3a29c1fed}{%
+           family={Teller},
+           familyi={T\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{5e4fd1c4740883d53e259a40b68b0611}
+      \strng{fullhash}{a8859960f76f5f3055cd70f2655bf77a}
+      \strng{fullhashraw}{a8859960f76f5f3055cd70f2655bf77a}
+      \strng{bibnamehash}{a8859960f76f5f3055cd70f2655bf77a}
+      \strng{authorbibnamehash}{a8859960f76f5f3055cd70f2655bf77a}
+      \strng{authornamehash}{5e4fd1c4740883d53e259a40b68b0611}
+      \strng{authorfullhash}{a8859960f76f5f3055cd70f2655bf77a}
+      \strng{authorfullhashraw}{a8859960f76f5f3055cd70f2655bf77a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A general method, suitable for fast computing machines, for investigating such properties as equations of state for substances consisting of interacting individual molecules is described. The method consists of a modified Monte Carlo integration over configuration space. Results for the two-dimensional rigid-sphere system have been obtained on the Los Alamos MANIAC and are presented here. These results are compared to the free volume equation of state and to a four-term virial coefficient expansion.}
+      \field{issn}{0021-9606}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Equation of {{State Calculations}} by {{Fast Computing Machines}}}
+      \field{urlday}{28}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{21}
+      \field{year}{1953}
+      \field{urldateera}{ce}
+      \field{pages}{1087\bibrangedash 1092}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1063/1.1699114
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\9L3ALDT8\\Metropolis et al. - 1953 - Equation of State Calculations by Fast Computing Machines.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\27UEWZVG\\Equation-of-State-Calculations-by-Fast-Computing.html;C\:\\Users\\JAPGc\\Zotero\\storage\\WK733KII\\Equation-of-State-Calculations-by-Fast-Computing.html
+      \endverb
+    \endentry
+    \entry{katochReviewGeneticAlgorithm2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=fda3358187a4813b12cc84afd9636dde}{%
+           family={Katoch},
+           familyi={K\bibinitperiod},
+           given={Sourabh},
+           giveni={S\bibinitperiod}}}%
+        {{hash=034226d7a1f1953f14206341c1b56d66}{%
+           family={Chauhan},
+           familyi={C\bibinitperiod},
+           given={Sumit\bibnamedelima Singh},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=3c2a6a0658f1ad90e7d4a83eef9c3841}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Vijay},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{86113fb12d1dc35bee14bbcd5939eef1}
+      \strng{fullhash}{cd1ac3ca133eb3560ff89df4cf058d81}
+      \strng{fullhashraw}{cd1ac3ca133eb3560ff89df4cf058d81}
+      \strng{bibnamehash}{cd1ac3ca133eb3560ff89df4cf058d81}
+      \strng{authorbibnamehash}{cd1ac3ca133eb3560ff89df4cf058d81}
+      \strng{authornamehash}{86113fb12d1dc35bee14bbcd5939eef1}
+      \strng{authorfullhash}{cd1ac3ca133eb3560ff89df4cf058d81}
+      \strng{authorfullhashraw}{cd1ac3ca133eb3560ff89df4cf058d81}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In this paper, the analysis of recent advances in genetic algorithms is discussed. The genetic algorithms of great interest in research community are selected for analysis. This review will help the new and demanding researchers to provide the wider vision of genetic algorithms. The well-known algorithms and their implementation are presented with their pros and cons. The genetic operators and their usages are discussed with the aim of facilitating new researchers. The different research domains involved in genetic algorithms are covered. The future research directions in the area of genetic operators, fitness function and hybrid algorithms are discussed. This structured review will be helpful for research and graduate teaching.}
+      \field{issn}{1573-7721}
+      \field{journaltitle}{Multimedia Tools and Applications}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{5}
+      \field{shorttitle}{A Review on Genetic Algorithm}
+      \field{title}{A Review on Genetic Algorithm: Past, Present, and Future}
+      \field{urlday}{21}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{80}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{8091\bibrangedash 8126}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1007/s11042-020-10139-6
+      \endverb
+      \verb{file}
+      \verb C:\Users\JAPGc\Zotero\storage\XTGFAT4R\Katoch et al. - 2021 - A review on genetic algorithm past, present, and future.pdf
+      \endverb
+      \keyw{Crossover,Evolution,Genetic algorithm,Metaheuristic,Mutation,Optimization,Selection}
+    \endentry
+    \entry{shilpaJobShopScheduling2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=2d10bf50837e018ad4f0cbe6f33dd643}{%
+           family={Shilpa},
+           familyi={S\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0e6bf8ab9765df6f94ec740107ade89a}{%
+           family={Balaraju},
+           familyi={B\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{d40dadc8739cb2009656af7146e37093}
+      \strng{fullhash}{d40dadc8739cb2009656af7146e37093}
+      \strng{fullhashraw}{d40dadc8739cb2009656af7146e37093}
+      \strng{bibnamehash}{d40dadc8739cb2009656af7146e37093}
+      \strng{authorbibnamehash}{d40dadc8739cb2009656af7146e37093}
+      \strng{authornamehash}{d40dadc8739cb2009656af7146e37093}
+      \strng{authorfullhash}{d40dadc8739cb2009656af7146e37093}
+      \strng{authorfullhashraw}{d40dadc8739cb2009656af7146e37093}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Job Shop Scheduling Using Differential Evolution Algorithm}
+      \field{volume}{8}
+      \field{year}{2018}
+      \field{pages}{327\bibrangedash 338}
+      \range{pages}{12}
+      \verb{file}
+      \verb C:\Users\JAPGc\Zotero\storage\UT5VVQC6\Shilpa and Balaraju - 2018 - Job shop scheduling using differential evolution algorithm.pdf
+      \endverb
+    \endentry
+    \entry{sriboonchandrImprovedDifferentialEvolution2019}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=dc1a2f5ca764f5a31967d8b308f8c4c6}{%
+           family={Sriboonchandr},
+           familyi={S\bibinitperiod},
+           given={Prasert},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c92d44ec29bb9380a28580524cca42c2}{%
+           family={Kriengkorakot},
+           familyi={K\bibinitperiod},
+           given={Nuchsara},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ce9a0b7a3722616fc816ee5a3565c5a3}{%
+           family={Kriengkorakot},
+           familyi={K\bibinitperiod},
+           given={Preecha},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{44bf76f693b0c9877885233a98fb8a9f}
+      \strng{fullhash}{a7367d1cbd7dcd875e58dc7a5ab35fc9}
+      \strng{fullhashraw}{a7367d1cbd7dcd875e58dc7a5ab35fc9}
+      \strng{bibnamehash}{a7367d1cbd7dcd875e58dc7a5ab35fc9}
+      \strng{authorbibnamehash}{a7367d1cbd7dcd875e58dc7a5ab35fc9}
+      \strng{authornamehash}{44bf76f693b0c9877885233a98fb8a9f}
+      \strng{authorfullhash}{a7367d1cbd7dcd875e58dc7a5ab35fc9}
+      \strng{authorfullhashraw}{a7367d1cbd7dcd875e58dc7a5ab35fc9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This research project aims to study and develop the differential evolution (DE) for use in solving the flexible job shop scheduling problem (FJSP). The development of algorithms were evaluated to find the solution and the best answer, and this was subsequently compared to the meta-heuristics from the literature review. For FJSP, by comparing the problem group with the makespan and the mean relative errors (MREs), it was found that for small-sized Kacem problems, value adjusting with ``DE/rand/1'' and exponential crossover at position 2. Moreover, value adjusting with ``DE/best/2'' and exponential crossover at position 2 gave an MRE of 3.25. For medium-sized Brandimarte problems, value adjusting with ``DE/best/2'' and exponential crossover at position 2 gave a mean relative error of 7.11. For large-sized Dauzere-Peres and Paulli problems, value adjusting with ``DE/best/2'' and exponential crossover at position 2 gave an MRE of 4.20. From the comparison of the DE results with other methods, it was found that the MRE was lower than that found by Girish and Jawahar with the particle swarm optimization (PSO) method (7.75), which the improved DE was 7.11. For large-sized problems, it was found that the MRE was lower than that found by Warisa (1ST-DE) method (5.08), for which the improved DE was 4.20. The results further showed that basic DE and improved DE with jump search are effective methods compared to the other meta-heuristic methods. Hence, they can be used to solve the FJSP.}
+      \field{issn}{2297-8747}
+      \field{journaltitle}{Mathematical and Computational Applications}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{Improved {{Differential Evolution Algorithm}} for {{Flexible Job Shop Scheduling Problems}}}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{24}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{80}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/mca24030080
+      \endverb
+      \verb{file}
+      \verb C:\Users\JAPGc\Zotero\storage\SLITLMVT\Sriboonchandr et al. - 2019 - Improved Differential Evolution Algorithm for Flexible Job Shop Scheduling Problems.pdf
+      \endverb
+      \keyw{flexible job shop scheduling problem,improved differential evolution algorithm,local search and jump search}
+    \endentry
+    \entry{ParticleSwarmOptimization2025}{article}{}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Particle Swarm Optimization (PSO) has been utilized as a useful tool for solving intricate optimization problems for various applications in different{\dots}}
+      \field{issn}{1546-2218}
+      \field{journaltitle}{Computers, Materials and Continua}
+      \field{langid}{american}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shorttitle}{Particle {{Swarm Optimization}}}
+      \field{title}{Particle {{Swarm Optimization}}: {{Advances}}, {{Applications}}, and {{Experimental Insights}}}
+      \field{urlday}{21}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{82}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{1539\bibrangedash 1592}
+      \range{pages}{54}
+      \verb{doi}
+      \verb 10.32604/cmc.2025.060765
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\B86YIGR6\\2025 - Particle Swarm Optimization Advances, Applications, and Experimental Insights.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\DGZB8632\\S1546221825000852.html
+      \endverb
+    \endentry
+    \entry{xiongSurveyJobShop2022}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=0330cdafa90b67f28b8669ecd2e4820a}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Hegen},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ab86d9c2d719fbb173b25237f62ce603}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Shuangyuan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a20a4cdea4faae4239400610d5915e14}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Danni},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e1d450513a2d4d7a04a02f74710f333d}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Jinjin},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e03736641c798a03b2ce3fc0a0212981}
+      \strng{fullhash}{dbb52ab3c956c899744bb804c86436bc}
+      \strng{fullhashraw}{dbb52ab3c956c899744bb804c86436bc}
+      \strng{bibnamehash}{dbb52ab3c956c899744bb804c86436bc}
+      \strng{authorbibnamehash}{dbb52ab3c956c899744bb804c86436bc}
+      \strng{authornamehash}{e03736641c798a03b2ce3fc0a0212981}
+      \strng{authorfullhash}{dbb52ab3c956c899744bb804c86436bc}
+      \strng{authorfullhashraw}{dbb52ab3c956c899744bb804c86436bc}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Job shop scheduling problem (JSSP) is a thriving area of scheduling research, which has been concerned and studied widely by scholars in engineering and academic fields. This paper provides a comprehensive review on the types and models of JSSP, to the best of our knowledge, there has not been a review paper on this aspect up to now. The main purpose of this review is to help researchers and scholars outlining an overview of existing JSSP models and exploring more valuable research directions. We first analyze and classify the entities and their attributes, assumptions, basic subtypes, and measures of performance of JSSP based on the researches from mid-1960s to 2020s. The general representation and overview of JSSP models are also presented. Then, some extensive statistics and analysis are conducted on 297 published papers in 72 journals ranging between 2016 and early 2021. Finally, some hot research aspects of JSSP models are reviewed in detail and some promising research directions are provided.}
+      \field{issn}{0305-0548}
+      \field{journaltitle}{Computers \& Operations Research}
+      \field{month}{6}
+      \field{shorttitle}{A Survey of Job Shop Scheduling Problem}
+      \field{title}{A Survey of Job Shop Scheduling Problem: {{The}} Types and Models}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{142}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{105731}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cor.2022.105731
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\5ZNQH59I\\Xiong et al. - 2022 - A survey of job shop scheduling problem The types and models.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\4XBPLTRB\\S0305054822000338.html;C\:\\Users\\JAPGc\\Zotero\\storage\\WQV7PW6D\\S0305054822000338.html
+      \endverb
+      \keyw{Future research,Job shop,Literature review,Model,Scheduling problem}
+    \endentry
+    \entry{fattahiMathematicalModelingHeuristic2007}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=bbae7e842efd4ab60f57fa4395c361a5}{%
+           family={Fattahi},
+           familyi={F\bibinitperiod},
+           given={Parviz},
+           giveni={P\bibinitperiod}}}%
+        {{hash=083c88dfdcd795bc322fed5d3bea83a4}{%
+           family={Saidi\bibnamedelima Mehrabad},
+           familyi={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=60d140c42e05bb3b05f7fe56094b63d1}{%
+           family={Jolai},
+           familyi={J\bibinitperiod},
+           given={Fariborz},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{28f3405c8b07e7914a1cebb32d53c336}
+      \strng{fullhash}{c516ea20304881a536dfa05607600060}
+      \strng{fullhashraw}{c516ea20304881a536dfa05607600060}
+      \strng{bibnamehash}{c516ea20304881a536dfa05607600060}
+      \strng{authorbibnamehash}{c516ea20304881a536dfa05607600060}
+      \strng{authornamehash}{28f3405c8b07e7914a1cebb32d53c336}
+      \strng{authorfullhash}{c516ea20304881a536dfa05607600060}
+      \strng{authorfullhashraw}{c516ea20304881a536dfa05607600060}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Scheduling for the flexible job shop is very important in both fields of production management and combinatorial optimization. However, it is quite difficult to achieve an optimal solution to this problem in medium and actual size problem with traditional optimization approaches owing to the high computational complexity. For solving the realistic case with more than two jobs, two types of approaches have been used: hierarchical approaches and integrated approaches. In hierarchical approaches assignment of operations to machines and the sequencing of operations on the resources or machines are treated separately, i.e., assignment and sequencing are considered independently, where in integrated approaches, assignment and sequencing are not differentiated. In this paper, a mathematical model and heuristic approaches for flexible job shop scheduling problems (FJSP) are considered. Mathematical model is used to achieve optimal solution for small size problems. Since FJSP is NP-hard problem, two heuristics approaches involve of integrated and hierarchical approaches are developed to solve the real size problems. Six different hybrid searching structures depending on used searching approach and heuristics are presented in this paper. Numerical experiments are used to evaluate the performance of the developed algorithms. It is concluded that, the hierarchical algorithms have better performance than integrated algorithms and the algorithm which use tabu search and simulated annealing heuristics for assignment and sequencing problems consecutively is more suitable than the other algorithms. Also the numerical experiments validate the quality of the proposed algorithms.}
+      \field{issn}{1572-8145}
+      \field{journaltitle}{Journal of Intelligent Manufacturing}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{3}
+      \field{title}{Mathematical Modeling and Heuristic Approaches to Flexible Job Shop Scheduling Problems}
+      \field{urlday}{15}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{18}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \field{pages}{331\bibrangedash 342}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/s10845-007-0026-8
+      \endverb
+      \verb{file}
+      \verb C:\Users\JAPGc\Zotero\storage\L3FG66X5\Fattahi et al. - 2007 - Mathematical modeling and heuristic approaches to flexible job shop scheduling problems.pdf
+      \endverb
+      \keyw{Algorithms,Discrete Optimization,Flexible job shop,Hierarchical approach,Operations Management,Operations Research and Decision Theory,Operations Research Management Science,Optimization,Scheduling,Simulated annealing,Tabu search}
+    \endentry
+    \entry{ozguvenMathematicalModelsJobshop2010}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=b1bc230b8cee4f96b50ec7022ee515cb}{%
+           family={Özgüven},
+           familyi={Ö\bibinitperiod},
+           given={Cemal},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c72837a32167d2bbcab81b1067ea5bca}{%
+           family={Özbak{ı}r},
+           familyi={Ö\bibinitperiod},
+           given={Lale},
+           giveni={L\bibinitperiod}}}%
+        {{hash=29f10dde48da177fb7c826f35f23918b}{%
+           family={Yavuz},
+           familyi={Y\bibinitperiod},
+           given={Yasemin},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb7215d18dfe1854a3bd1182889203a5}
+      \strng{fullhash}{376c34ad85287e210bd47bb8d92476aa}
+      \strng{fullhashraw}{376c34ad85287e210bd47bb8d92476aa}
+      \strng{bibnamehash}{376c34ad85287e210bd47bb8d92476aa}
+      \strng{authorbibnamehash}{376c34ad85287e210bd47bb8d92476aa}
+      \strng{authornamehash}{eb7215d18dfe1854a3bd1182889203a5}
+      \strng{authorfullhash}{376c34ad85287e210bd47bb8d92476aa}
+      \strng{authorfullhashraw}{376c34ad85287e210bd47bb8d92476aa}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As a result of rapid developments in production technologies in recent years, flexible job-shop scheduling problems have become increasingly significant. This paper deals with two NP-hard optimization problems: flexible job-shop scheduling problems (FJSPs) that encompass routing and sequencing sub-problems, and the FJSPs with process plan flexibility (FJSP-PPFs) that additionally include the process plan selection sub-problem. The study is carried out in two steps. In the first step, a mixed-integer linear programming model (MILP-1) is developed for FJSPs and compared to an alternative model in the literature (Model F) in terms of computational efficiency. In the second step, one other mixed-integer linear programming model, a modification of MILP-1, for the FJSP-PPFs is presented along with its computational results on hypothetically generated test problems.}
+      \field{issn}{0307-904X}
+      \field{journaltitle}{Applied Mathematical Modelling}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Mathematical Models for Job-Shop Scheduling Problems with Routing and Process Plan Flexibility}
+      \field{urlday}{26}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{volume}{34}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{1539\bibrangedash 1548}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.apm.2009.09.002
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\AU9D4XDD\\Özgüven et al. - 2010 - Mathematical models for job-shop scheduling problems with routing and process plan flexibility.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\Y9EBVFA9\\S0307904X09002819.html;C\:\\Users\\JAPGc\\Zotero\\storage\\YG3N7XH9\\S0307904X09002819.html
+      \endverb
+      \keyw{Job-shop scheduling,Mixed-integer programming,Process plan flexibility,Routing flexibility}
+    \endentry
+    \entry{Thrnblad2013ACI}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=f1a7577813a58927cc2ce3ecceb2429b}{%
+           family={Thörnblad},
+           familyi={T\bibinitperiod},
+           given={Karin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e4a00cd2b56ceb2ca4623f64718f5c64}{%
+           family={Strömberg},
+           familyi={S\bibinitperiod},
+           given={Ann-Brith},
+           giveni={A\bibinithyphendelim B\bibinitperiod}}}%
+        {{hash=8e9b030cee6168ef8307cfd678764d3e}{%
+           family={Patriksson},
+           familyi={P\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b1d3326d9a7020d52960bd25387973af}{%
+           family={Almgren},
+           familyi={A\bibinitperiod},
+           given={Torgny},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb53902ea7bc11434134fe7aef86434a}
+      \strng{fullhash}{9134279266d2cef4accfd77b89b4d29a}
+      \strng{fullhashraw}{9134279266d2cef4accfd77b89b4d29a}
+      \strng{bibnamehash}{9134279266d2cef4accfd77b89b4d29a}
+      \strng{authorbibnamehash}{9134279266d2cef4accfd77b89b4d29a}
+      \strng{authornamehash}{bb53902ea7bc11434134fe7aef86434a}
+      \strng{authorfullhash}{9134279266d2cef4accfd77b89b4d29a}
+      \strng{authorfullhashraw}{9134279266d2cef4accfd77b89b4d29a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Competitive Iterative Procedure Using a Time-Indexed Model for Solving Flexible Job Shop Scheduling Problems}
+      \field{year}{2013}
+    \endentry
+    \entry{samarghandiSolvingNowaitJob2019}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=8d840ebce0f4757cef00564cb6421f0b}{%
+           family={Samarghandi},
+           familyi={S\bibinitperiod},
+           given={Hamed},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d840ebce0f4757cef00564cb6421f0b}
+      \strng{fullhash}{8d840ebce0f4757cef00564cb6421f0b}
+      \strng{fullhashraw}{8d840ebce0f4757cef00564cb6421f0b}
+      \strng{bibnamehash}{8d840ebce0f4757cef00564cb6421f0b}
+      \strng{authorbibnamehash}{8d840ebce0f4757cef00564cb6421f0b}
+      \strng{authornamehash}{8d840ebce0f4757cef00564cb6421f0b}
+      \strng{authorfullhash}{8d840ebce0f4757cef00564cb6421f0b}
+      \strng{authorfullhashraw}{8d840ebce0f4757cef00564cb6421f0b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This paper addresses the job shop scheduling problem with the additional condition that no waiting time is allowed between the operations of the jobs. Moreover, jobs must be fully processed by their respective due dates. The goal is to minimize the makespan. The problem is strongly NP-Hard. This paper transforms the mentioned problem to another scheduling problem and proposes mathematical models for both. The mathematical models proposed for the transformed problem demonstrate a better performance compared to the models developed for the original problem. A genetic algorithm is developed to deal with larger instances of both the original and the transformed problems. The evidence gathered from the computational results confirm that the proposed GA has better performance when applied to the transformed problem.}
+      \field{issn}{0360-8352}
+      \field{journaltitle}{Computers \& Industrial Engineering}
+      \field{month}{10}
+      \field{shorttitle}{Solving the No-Wait Job Shop Scheduling Problem with Due Date Constraints}
+      \field{title}{Solving the No-Wait Job Shop Scheduling Problem with Due Date Constraints: {{A}} Problem Transformation Approach}
+      \field{urlday}{15}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{136}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{635\bibrangedash 662}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1016/j.cie.2019.07.054
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\QNR9Y2UF\\Samarghandi - 2019 - Solving the no-wait job shop scheduling problem with due date constraints A problem transformation.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\M8QZKS4P\\S0360835219304516.html
+      \endverb
+      \keyw{Due dates,Genetic algorithm,Job shop scheduling,Makespan,Mathematical programming,No-wait,Problem transformation}
+    \endentry
+    \entry{behmaneshImprovedAntColony2021}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=9ea03501b82e00b68a956a8d46b447bb}{%
+           family={Behmanesh},
+           familyi={B\bibinitperiod},
+           given={Reza},
+           giveni={R\bibinitperiod}}}%
+        {{hash=bbdaf29359e2c3d26dc3c8dc85cab5eb}{%
+           family={Rahimi},
+           familyi={R\bibinitperiod},
+           given={Iman},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Bucharest University of Economic Studies}%
+      }
+      \strng{namehash}{b474db8fdbce7c82b2aa88ebc256f686}
+      \strng{fullhash}{b474db8fdbce7c82b2aa88ebc256f686}
+      \strng{fullhashraw}{b474db8fdbce7c82b2aa88ebc256f686}
+      \strng{bibnamehash}{b474db8fdbce7c82b2aa88ebc256f686}
+      \strng{authorbibnamehash}{b474db8fdbce7c82b2aa88ebc256f686}
+      \strng{authornamehash}{b474db8fdbce7c82b2aa88ebc256f686}
+      \strng{authorfullhash}{b474db8fdbce7c82b2aa88ebc256f686}
+      \strng{authorfullhashraw}{b474db8fdbce7c82b2aa88ebc256f686}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In this paper, we addressed the multi-resource job shop scheduling problem (MRJSP) with resource flexibility to minimize makespan. Regarding this issue, a mixed integer linear programming (MILP) model was developed. The minimization of makespan is a non-deterministic polynomial time optimization problem; hence, we implemented several improvements to the ant colony optimization (ACO) algorithm. To improve the algorithm, a new strategy inspired from selfish herd (SH) theory was used to update the pheromones in the algorithm. Scheduling WOs in a transportation workshop is similar to a job shop scheduling problem. Therefore, the structure of this special case was chosen to evaluate the new method. The proposed approach was evaluated in five test cases and numerical computational experiments. The performance of the improved ACO algorithm was compared in all test cases, including small and large test cases. The computational experiments show that the algorithms modified with the SH strategy outperformed the same algorithms without this strategy. Moreover, the results demonstrate the efficiency and capability of the proposed model and solution approach for optimizing the makespan of the problem. {©} 2021, Bucharest University of Economic Studies. All rights reserved.}
+      \field{issn}{0424-267X}
+      \field{journaltitle}{Economic Computation and Economic Cybernetics Studies and Research}
+      \field{langid}{english}
+      \field{number}{4}
+      \field{shorttitle}{Improved Ant Colony Optimization for Multi-Resource Job Shop Scheduling}
+      \field{title}{Improved Ant Colony Optimization for Multi-Resource Job Shop Scheduling: {{A}} Special Case of Transportation}
+      \field{volume}{55}
+      \field{year}{2021}
+      \field{pages}{277\bibrangedash 294}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.24818/18423264/55.4.21.18
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\CS93XLT2\\Behmanesh and Rahimi - 2021 - Improved ant colony optimization for multi-resource job shop scheduling A special case of transport.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\RW4MHFU9\\85121972764.html
+      \endverb
+      \keyw{Ant system,Evolutionary computation,Makespan,Multi-resource job shop scheduling problem,Selfish herd}
+    \endentry
+    \entry{nawazHeuristicAlgorithmMmachine1983}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f321e496a7638e806d87d58268f5f466}{%
+           family={Nawaz},
+           familyi={N\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=84ce329fa23481250f4d8a4e8bd4e111}{%
+           family={Enscore},
+           familyi={E\bibinitperiod},
+           given={E\bibnamedelima Emory},
+           giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=754555d7efc77c317c01be1937b15772}{%
+           family={Ham},
+           familyi={H\bibinitperiod},
+           given={Inyong},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{7a8ce81c0df24af9102e8e381da60c8b}
+      \strng{fullhash}{a3983a218b99e9b7da83efb5982f6b55}
+      \strng{fullhashraw}{a3983a218b99e9b7da83efb5982f6b55}
+      \strng{bibnamehash}{a3983a218b99e9b7da83efb5982f6b55}
+      \strng{authorbibnamehash}{a3983a218b99e9b7da83efb5982f6b55}
+      \strng{authornamehash}{7a8ce81c0df24af9102e8e381da60c8b}
+      \strng{authorfullhash}{a3983a218b99e9b7da83efb5982f6b55}
+      \strng{authorfullhashraw}{a3983a218b99e9b7da83efb5982f6b55}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In a general flow-shop situation, where all the jobs must pass through all the machines in the same order, certain heuristic algorithms propose that the jobs with higher total process time should be given higher priority than the jobs with less total process time. Based on this premise, a simple algorithm is presented in this paper, which produces very good sequences in comparison with existing heuristics. The results of the proposed algorithm have been compared with the results from 15 other algorithms in an independent study by Park [13], who shows that the proposed algorithm performs especially well on large flow-shop problems in both the static and dynamic sequencing environments.}
+      \field{issn}{0305-0483}
+      \field{journaltitle}{Omega}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{A Heuristic Algorithm for the {\emph{M}}-Machine, {\emph{n}}-Job Flow-Shop Sequencing Problem}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{11}
+      \field{year}{1983}
+      \field{urldateera}{ce}
+      \field{pages}{91\bibrangedash 95}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/0305-0483(83)90088-9
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\M49KR3ZG\\Nawaz et al. - 1983 - A heuristic algorithm for the m-machine, n-job flow-shop sequencing problem.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\KSE9V7XR\\0305048383900889.html
+      \endverb
+    \endentry
+    \entry{yingMinimizingTotalCompletion2022}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=d341ae2c46f5425d44526cf38db07e67}{%
+           family={Ying},
+           familyi={Y\bibinitperiod},
+           given={Kuo-Ching},
+           giveni={K\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=79feabe3b88daddb4c0e9de4778e6284}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Shih-Wei},
+           giveni={S\bibinithyphendelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9eebf51c137e04599fa11cd77555d5d}
+      \strng{fullhash}{f9eebf51c137e04599fa11cd77555d5d}
+      \strng{fullhashraw}{f9eebf51c137e04599fa11cd77555d5d}
+      \strng{bibnamehash}{f9eebf51c137e04599fa11cd77555d5d}
+      \strng{authorbibnamehash}{f9eebf51c137e04599fa11cd77555d5d}
+      \strng{authornamehash}{f9eebf51c137e04599fa11cd77555d5d}
+      \strng{authorfullhash}{f9eebf51c137e04599fa11cd77555d5d}
+      \strng{authorfullhashraw}{f9eebf51c137e04599fa11cd77555d5d}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This study focused on the no-wait jobshop scheduling problem (NWJSP), which is NP-hard in the strong sense. A new benchmarking algorithm, named backtracking multi-start simulated annealing (BMSA), is presented in this study for minimizing the total completion time in NWJSPs. To effectively and efficiently find (near-) optimal schedules, the simulated annealing algorithm is strengthened by integrating the multi-start and backtracking mechanisms that enable the search processes to escape from the local optimum. The performance of the BMSA algorithm is assessed by comparing its experimental results to those of the best available metaheuristics on three well-known benchmark problem sets. Computational results and statistical analyses confirm that the BMSA algorithm significantly outperforms these benchmark metaheuristics. This study mainly contributes to providing an innovative approach for solving this highly intractable scheduling problem, which is also worth applying to solve a practical NWJSP.}
+      \field{issn}{0360-8352}
+      \field{journaltitle}{Computers \& Industrial Engineering}
+      \field{month}{7}
+      \field{title}{Minimizing Total Completion Time in the No-Wait Jobshop Scheduling Problem Using a Backtracking Metaheuristic}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{169}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{108238}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cie.2022.108238
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\BZKTAHVQ\\Ying and Lin - 2022 - Minimizing total completion time in the no-wait jobshop scheduling problem using a backtracking meta.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\47Y7GYX8\\S0360835222003084.html
+      \endverb
+      \keyw{Metaheuristics,No-wait jobshop,Scheduling,Total completion time}
+    \endentry
+    \entry{xuNoWaitJobShop2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=fddb7bf01779a5623baf8c7e419d336b}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Mingming},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b2fadaca899e5bf48174237f91ac80d1}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shuning},
+           giveni={S\bibinitperiod}}}%
+        {{hash=656a9f3bd2db66c85238473f1d2b012a}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Guanlong},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{0d9f65cbd0cf22998b034f317afb6d3b}
+      \strng{fullhash}{38ee8b9c2d10d29d9b177ad54763b670}
+      \strng{fullhashraw}{38ee8b9c2d10d29d9b177ad54763b670}
+      \strng{bibnamehash}{38ee8b9c2d10d29d9b177ad54763b670}
+      \strng{authorbibnamehash}{38ee8b9c2d10d29d9b177ad54763b670}
+      \strng{authornamehash}{0d9f65cbd0cf22998b034f317afb6d3b}
+      \strng{authorfullhash}{38ee8b9c2d10d29d9b177ad54763b670}
+      \strng{authorfullhashraw}{38ee8b9c2d10d29d9b177ad54763b670}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{When no-wait constraint holds in job shops, a job has to be processed with no waiting time from the first to the last operation, and the start time of a job is greatly restricted. Using key elements of the iterated greedy algorithm, this paper proposes a population-based iterated greedy (PBIG) algorithm for finding high-quality schedules in no-wait job shops. Firstly, the Nawaz--Enscore--Ham (NEH) heuristic used for flow shop is extended in no-wait job shops, and an initialization scheme based on the NEH heuristic is developed to generate start solutions with a certain quality and diversity. Secondly, the iterated greedy procedure is introduced based on the destruction and construction perturbator and the insert-based local search. Furthermore, a population-based co-evolutionary scheme is presented by imposing the iterated greedy procedure in parallel and hybridizing both the left timetabling and inverse left timetabling methods. Computational results based on well-known benchmark instances show that the proposed algorithm outperforms two existing metaheuristics by a significant margin.}
+      \field{issn}{1999-4893}
+      \field{journaltitle}{Algorithms}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{No-{{Wait Job Shop Scheduling Using}} a {{Population-Based Iterated Greedy Algorithm}}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{14}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{145}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/a14050145
+      \endverb
+      \verb{file}
+      \verb C:\Users\JAPGc\Zotero\storage\LWEPIY6A\Xu et al. - 2021 - No-Wait Job Shop Scheduling Using a Population-Based Iterated Greedy Algorithm.pdf
+      \endverb
+      \keyw{iterated greedy,job shop,local search,metaheuristics,no-wait}
+    \endentry
+    \entry{aschauerEfficientAlgorithmScheduling2017}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=dccfc1f8b1b87656650e8b9cccb4bfe7}{%
+           family={Aschauer},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=270309526c9804dea63b5a5970428b28}{%
+           family={Roetzer},
+           familyi={R\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=292ef5500c168ec625ef22c457c6a2a4}{%
+           family={Steinboeck},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1db479757629c24a58ffebcef5ca461b}{%
+           family={Kugi},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{e0092528c82a6c4fb672908ee54f9ffb}
+      \strng{fullhash}{e3cc2e2a25565e490e6c462b45d8919d}
+      \strng{fullhashraw}{e3cc2e2a25565e490e6c462b45d8919d}
+      \strng{bibnamehash}{e3cc2e2a25565e490e6c462b45d8919d}
+      \strng{authorbibnamehash}{e3cc2e2a25565e490e6c462b45d8919d}
+      \strng{authornamehash}{e0092528c82a6c4fb672908ee54f9ffb}
+      \strng{authorfullhash}{e3cc2e2a25565e490e6c462b45d8919d}
+      \strng{authorfullhashraw}{e3cc2e2a25565e490e6c462b45d8919d}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Optimal scheduling in industrial processes is crucial to ensure highest throughput rates and low costs. This paper presents the implementation of a scheduling algorithm in a hot rolling mill, which features several reheating furnaces and which is characterized by bidirectional material flow, blocking, and no-wait constraints. The scheduling problem is solved by a decomposition into a timetabling algorithm and a sequence optimization procedure. For the timetabling task, where the sequence of products is assumed to be fixed, a new recursive algorithm to generate a non-delay feasible schedule is developed. The sequence optimization procedure searches for the optimum product sequence and makes heavy use of the timetabling algorithm. A competitive starting sequence is generated by a construction heuristic and iteratively improved by a tabu search algorithm.}
+      \field{issn}{2405-8963}
+      \field{journaltitle}{IFAC-PapersOnLine}
+      \field{month}{7}
+      \field{number}{1}
+      \field{series}{20th {{IFAC World Congress}}}
+      \field{title}{An {{Efficient Algorithm}} for {{Scheduling}} a {{Flexible Job Shop}} with {{Blocking}} and {{No-Wait Constraints}}*}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{50}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{12490\bibrangedash 12495}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.ifacol.2017.08.2056
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\AUD4TVQA\\Aschauer et al. - 2017 - An Efficient Algorithm for Scheduling a Flexible Job Shop with Blocking and No-Wait Constraints.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\B8RP3DUV\\S2405896317326976.html;C\:\\Users\\JAPGc\\Zotero\\storage\\PKDBDICD\\S2405896317326976.html
+      \endverb
+      \keyw{blocking,construction heuristic,flexible job shop,hot rolling mill,metal processing,no-wait constraints,parallel machines,scheduling,tabu search,timetabling}
+    \endentry
+    \entry{xiaEffectiveHybridOptimization2005}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=497d6755f77027d94d815325a3bcdf2d}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Weijun},
+           giveni={W\bibinitperiod}}}%
+        {{hash=ee0ccb1cd6cf0fc9ab8983a234ba3a9a}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Zhiming},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{f243f3ae7407fba91e3201c35133ab67}
+      \strng{fullhash}{f243f3ae7407fba91e3201c35133ab67}
+      \strng{fullhashraw}{f243f3ae7407fba91e3201c35133ab67}
+      \strng{bibnamehash}{f243f3ae7407fba91e3201c35133ab67}
+      \strng{authorbibnamehash}{f243f3ae7407fba91e3201c35133ab67}
+      \strng{authornamehash}{f243f3ae7407fba91e3201c35133ab67}
+      \strng{authorfullhash}{f243f3ae7407fba91e3201c35133ab67}
+      \strng{authorfullhashraw}{f243f3ae7407fba91e3201c35133ab67}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Scheduling for the flexible job-shop is very important in both fields of production management and combinatorial optimization. However, it is quite difficult to achieve an optimal solution to this problem with traditional optimization approaches owing to the high computational complexity. The combining of several optimization criteria induces additional complexity and new problems. Particle swarm optimization is an evolutionary computation technique mimicking the behavior of flying birds and their means of information exchange. It combines local search (by self experience) and global search (by neighboring experience), possessing high search efficiency. Simulated annealing (SA) as a local search algorithm employs certain probability to avoid becoming trapped in a local optimum and has been proved to be effective for a variety of situations, including scheduling and sequencing. By reasonably hybridizing these two methodologies, we develop an easily implemented hybrid approach for the multi-objective flexible job-shop scheduling problem (FJSP). The results obtained from the computational study have shown that the proposed algorithm is a viable and effective approach for the multi-objective FJSP, especially for problems on a large scale.}
+      \field{issn}{0360-8352}
+      \field{journaltitle}{Computers \& Industrial Engineering}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{An Effective Hybrid Optimization Approach for Multi-Objective Flexible Job-Shop Scheduling Problems}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{48}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \field{pages}{409\bibrangedash 425}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.cie.2005.01.018
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\CV3QG8U2\\Xia and Wu - 2005 - An effective hybrid optimization approach for multi-objective flexible job-shop scheduling problems.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\V7DSXGKI\\S0360835205000197.html
+      \endverb
+      \keyw{Combinatorial optimization,Flexible job-shop scheduling,Multi-objective optimization,Particle swarm optimization,Simulated annealing}
+    \endentry
+    \entry{jonathanWhaleOptimizationAlgorithm2024}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=713f1ba7979159f12f28f5bdd6026c83}{%
+           family={Jonathan},
+           familyi={J\bibinitperiod},
+           given={Stanley},
+           giveni={S\bibinitperiod}}}%
+        {{hash=80055f6285d01419647af034e5eeeb0b}{%
+           family={Nugraheni},
+           familyi={N\bibinitperiod},
+           given={Cecilia\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=b4579ae9a004b50c7e3d2ffa8b8c5b81}{%
+           family={Abednego},
+           familyi={A\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f39e3315bcc0a0010446a1147aff6e3b}
+      \strng{fullhash}{a64ce20c075b5333f91b61cf2bf57131}
+      \strng{fullhashraw}{a64ce20c075b5333f91b61cf2bf57131}
+      \strng{bibnamehash}{a64ce20c075b5333f91b61cf2bf57131}
+      \strng{authorbibnamehash}{a64ce20c075b5333f91b61cf2bf57131}
+      \strng{authornamehash}{f39e3315bcc0a0010446a1147aff6e3b}
+      \strng{authorfullhash}{a64ce20c075b5333f91b61cf2bf57131}
+      \strng{authorfullhashraw}{a64ce20c075b5333f91b61cf2bf57131}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{No-wait Flexible Flow Shop Scheduling (NWFFSSP) is one class of scheduling problems found in production scheduling. An interesting characteristic of NWFFSSP is the requirement that jobs be processed continuously without a break from one particular stage to the next. Good production scheduling considers objectives such as minimizing the total production time (makespan) and the resulting CPU Time. In this paper, NWFFSSP is solved using the Whale Optimization Algorithm (WOA) metaheuristic algorithm to minimize two objectives, namely the total production time (makespan) and CPU Time. The experimental results conclude that makespan is inversely proportional to the population size and the number of iterations. In contrast, CPU time is directly proportional to the number of whales and iterations. Compared to the other three metaheuristics, namely Genetic Algorithm (GA), Simulated Annealing (SA), and Minimum Deviation Algorithm (MDA), WOA has the best performance in terms of makespan for small-sized problems. While in terms of time, although it does not outperform MDA, WOA is generally better than SA and GA.}
+      \field{booktitle}{2024 {{Ninth International Conference}} on {{Informatics}} and {{Computing}} ({{ICIC}})}
+      \field{month}{10}
+      \field{title}{A {{Whale Optimization Algorithm}} Based {{Solver}} for {{No-wait Flexible Flow Shop Scheduling Problems}}}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICIC64337.2024.10956970
+      \endverb
+      \verb{file}
+      \verb C:\Users\JAPGc\Zotero\storage\LVAG57Z2\Jonathan et al. - 2024 - A Whale Optimization Algorithm based Solver for No-wait Flexible Flow Shop Scheduling Problems.pdf
+      \endverb
+      \keyw{CPU Time,Genetic algorithms,Informatics,Job shop scheduling,makespan,metaheuristics,Metaheuristics,NWFFSSP,Production,Simulated annealing,Whale optimization algorithms,WOA}
+    \endentry
+    \entry{perrachonIndustrialMultiresourceFlexible2025}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=5336893b8ef2028e5a28ad532ad9ef3e}{%
+           family={Perrachon},
+           familyi={P\bibinitperiod},
+           given={Quentin},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=7afca4eee3c38e6892b3d3e30208f934}{%
+           family={Olteanu},
+           familyi={O\bibinitperiod},
+           given={Alexandru-Liviu},
+           giveni={A\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=e84660bb2951d7c85295644540d03054}{%
+           family={Sevaux},
+           familyi={S\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{hash=698762d77d569327a9b6cc4d0d02095d}{%
+           family={Fréchengues},
+           familyi={F\bibinitperiod},
+           given={Sylvain},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fa52e2e969f3b5848589f23ad8b21e51}{%
+           family={Kerviche},
+           familyi={K\bibinitperiod},
+           given={Jean-François},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{771e0014ebe0961000ebb551dd13aed0}
+      \strng{fullhash}{af26b7a0658ec8f5ad71a17de0e9c627}
+      \strng{fullhashraw}{af26b7a0658ec8f5ad71a17de0e9c627}
+      \strng{bibnamehash}{af26b7a0658ec8f5ad71a17de0e9c627}
+      \strng{authorbibnamehash}{af26b7a0658ec8f5ad71a17de0e9c627}
+      \strng{authornamehash}{771e0014ebe0961000ebb551dd13aed0}
+      \strng{authorfullhash}{af26b7a0658ec8f5ad71a17de0e9c627}
+      \strng{authorfullhashraw}{af26b7a0658ec8f5ad71a17de0e9c627}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper is dedicated to the study of industrial extensions of the flexible job shop scheduling problem with multiple resources in order to propose an alternative to expensive optimization software for small to medium-sized manufacturing companies. In this context, we propose a generic model able to tackle some constraints often found in industrial scheduling problems. This model tackles partially necessary resources by decomposing operations into stages. Instances are solved by a simulated annealing metaheuristic which is further improved using efficient conditions to filter non-interesting solutions. We compare our approach to a constraint programming model using a commercial solver. Extensive experiments and statistical analysis show that our method is competitive and of practical use in the industrial context.}
+      \field{issn}{0377-2217}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Industrial Multi-Resource Flexible Job Shop Scheduling with Partially Necessary Resources}
+      \field{urlday}{13}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{320}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{309\bibrangedash 327}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1016/j.ejor.2024.07.023
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\G3SIUUK9\\Perrachon et al. - 2025 - Industrial multi-resource flexible job shop scheduling with partially necessary resources.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\8TIK2CUT\\S0377221724005642.html
+      \endverb
+      \keyw{Flexible job shop,Metaheuristics,Multi-resource,Partially necessary resources,Scheduling}
+    \endentry
+    \entry{caumondMemeticAlgorithmJobshop2008}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=6bf98e36bbfe7f372d26d5ee88d580ab}{%
+           family={Caumond},
+           familyi={C\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0ffc4dfa4374d87f43c20d49d076937a}{%
+           family={Lacomme},
+           familyi={L\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod}}}%
+        {{hash=8bac419e1ecdc0f8436947d2fee144ba}{%
+           family={Tchernev},
+           familyi={T\bibinitperiod},
+           given={Nikolay},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{46751b643d2647a863aeec72a9052d61}
+      \strng{fullhash}{4812352bfe75cf3d3afdfd78c42ff8a5}
+      \strng{fullhashraw}{4812352bfe75cf3d3afdfd78c42ff8a5}
+      \strng{bibnamehash}{4812352bfe75cf3d3afdfd78c42ff8a5}
+      \strng{authorbibnamehash}{4812352bfe75cf3d3afdfd78c42ff8a5}
+      \strng{authornamehash}{46751b643d2647a863aeec72a9052d61}
+      \strng{authorfullhash}{4812352bfe75cf3d3afdfd78c42ff8a5}
+      \strng{authorfullhashraw}{4812352bfe75cf3d3afdfd78c42ff8a5}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The job-shop with time-lags (JS{|}t) is defined as a job-shop problem with minimal and maximal delays between starting times of operations. In this article, time-lags between successive operations of the same job (JS{|}ti,si) are studied. This problem is a generalization of the job-shop problem (null minimal time-lags and infinite maximal time-lags) and the no-wait job-shop problem (null minimal and maximal time-lags). This article introduced a framework based on a disjunctive graph to modelize the problem and on a memetic algorithm for job sequence generation on machines. Our aim is to provide also a framework to cover both job-shop and flow-shop problem and to encompass both no-wait and classical instances. A benchmark has been carried out on medium scale instances proving that high quality solutions can be obtained in short computational time. The framework we introduce competes with some methods dedicated to the no-wait job-shop instances and flow-shop instances in terms of quality of results.}
+      \field{issn}{0305-0548}
+      \field{journaltitle}{Computers \& Operations Research}
+      \field{month}{7}
+      \field{number}{7}
+      \field{series}{Part {{Special Issue}}: {{Includes}} Selected Papers Presented at the {{ECCO}}'04 {{European Conference}} on Combinatorial {{Optimization}}}
+      \field{title}{A Memetic Algorithm for the Job-Shop with Time-Lags}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{35}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{2331\bibrangedash 2356}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1016/j.cor.2006.11.007
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\IFUKJZEM\\Caumond et al. - 2008 - A memetic algorithm for the job-shop with time-lags.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\KH8UHTHA\\S0305054806002930.html
+      \endverb
+      \keyw{Job-shop problem,Scheduling,Time-lags}
+    \endentry
+    \entry{kondiliGeneralAlgorithmShortterm1993}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=08c547fd7bb5bc018c9da8f22f5f5ef5}{%
+           family={Kondili},
+           familyi={K\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=5c1927837f7c9a54d39e415c73060c58}{%
+           family={Pantelides},
+           familyi={P\bibinitperiod},
+           given={C.\bibnamedelimi C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=9bb5dafdeea7aecdcd10853b7c3c7d52}{%
+           family={Sargent},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi W.\bibnamedelimi H.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{c9d6196d85207402afff7f95a2b4a824}
+      \strng{fullhash}{4c27d434f92b55fed5f6ca874db00f7f}
+      \strng{fullhashraw}{4c27d434f92b55fed5f6ca874db00f7f}
+      \strng{bibnamehash}{4c27d434f92b55fed5f6ca874db00f7f}
+      \strng{authorbibnamehash}{4c27d434f92b55fed5f6ca874db00f7f}
+      \strng{authornamehash}{c9d6196d85207402afff7f95a2b4a824}
+      \strng{authorfullhash}{4c27d434f92b55fed5f6ca874db00f7f}
+      \strng{authorfullhashraw}{4c27d434f92b55fed5f6ca874db00f7f}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A general framework for handling a wide range of scheduling problems arising in multiproduct/multipurpose batch chemical plants is presented. Batch processes involving a variety of complexities are represented using a state-task network. The novel feature of this representation is that both the individual batch operations (``tasks'') and the feedstocks, intermediate and final products (``states'') are included explicitly as network nodes. Processes involving sharing of raw materials and intermediates, batch splitting and mixing and recycles of material, can be represented unambiguously as such networks. The short-term scheduling problem is formulated as a mixed integer linear program (MILP) based on a discrete time representation. Flexible equipment allocation, variable batchsizes and mixed intermediate storage policies involving both dedicated and multipurpose storage vessels are taken into account. Limited availability of raw materials, both at the start and during the time horizon of interest, is accommodated. Product deliveries may take place at any time during the horizon, and the amounts involved may be either fixed or variable. The use of utilities by the various tasks may vary over the task processing time, and may be constant or proportional to the batchsize. The availability and/or cost of utilities may vary over the time horizon of interest. The objective function is the maximization of a profit function involving the value of the products, and the cost of raw materials, utilities and material storage. The formulation may result in MILPs involving large numbers of binary variables. Issues pertaining to the efficient solution of these problems are discussed in Part II of this paper.}
+      \field{issn}{0098-1354}
+      \field{journaltitle}{Computers \& Chemical Engineering}
+      \field{month}{2}
+      \field{number}{2}
+      \field{series}{An {{International Journal}} of {{Computer Applications}} in {{Chemical Enginnering}}}
+      \field{title}{A General Algorithm for Short-Term Scheduling of Batch Operations---{{I}}. {{MILP}} Formulation}
+      \field{urlday}{11}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{17}
+      \field{year}{1993}
+      \field{urldateera}{ce}
+      \field{pages}{211\bibrangedash 227}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/0098-1354(93)80015-F
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\N9J9249U\\Kondili et al. - 1993 - A general algorithm for short-term scheduling of batch operations—I. MILP formulation.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\SDGMLDKE\\009813549380015F.html
+      \endverb
+    \endentry
+    \entry{delahayeSimulatedAnnealingBasics2019}{incollection}{}{}
+      \name{author}{3}{}{%
+        {{hash=724f19394ff905be4ed7b245765f1656}{%
+           family={Delahaye},
+           familyi={D\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e6d1900f733514d5c9b670410ae08c3f}{%
+           family={Chaimatanan},
+           familyi={C\bibinitperiod},
+           given={Supatcha},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0aa4f8579303710b71430ead48cc5909}{%
+           family={Mongeau},
+           familyi={M\bibinitperiod},
+           given={Marcel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=d4ebdd3fdc985c36f68c8295c5664c74}{%
+           family={Gendreau},
+           familyi={G\bibinitperiod},
+           given={Michel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=156d517208f70e145503aa8b5ec9849b}{%
+           family={Potvin},
+           familyi={P\bibinitperiod},
+           given={Jean-Yves},
+           giveni={J\bibinithyphendelim Y\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{ec4b7538e78ed914384001d2de007530}
+      \strng{fullhash}{d0d6c52cffbe38f91adb7894454bf665}
+      \strng{fullhashraw}{d0d6c52cffbe38f91adb7894454bf665}
+      \strng{bibnamehash}{d0d6c52cffbe38f91adb7894454bf665}
+      \strng{authorbibnamehash}{d0d6c52cffbe38f91adb7894454bf665}
+      \strng{authornamehash}{ec4b7538e78ed914384001d2de007530}
+      \strng{authorfullhash}{d0d6c52cffbe38f91adb7894454bf665}
+      \strng{authorfullhashraw}{d0d6c52cffbe38f91adb7894454bf665}
+      \strng{editorbibnamehash}{428631794113b74d16ac1f3a6f241136}
+      \strng{editornamehash}{428631794113b74d16ac1f3a6f241136}
+      \strng{editorfullhash}{428631794113b74d16ac1f3a6f241136}
+      \strng{editorfullhashraw}{428631794113b74d16ac1f3a6f241136}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Simulated Annealing (SA) is one of the simplest and best-known metaheuristic method for addressing difficult black box global optimization problems whose objective function is not explicitly given and can only be evaluated via some costly computer simulation. It is massively used in real-life applications. The main advantage of SA is its simplicity. SA is based on an analogy with the physical annealing of materials that avoids the drawback of the Monte-Carlo approach (which can be trapped in local minima), thanks to an efficient Metropolis acceptance criterion. When the evaluation of the objective-function results from complex simulation processes that manipulate a large-dimension state space involving much memory, population-based algorithms are not applicable and SA is the right answer to address such issues. This chapter is an introduction to the subject. It presents the principles of local search optimization algorithms, of which simulated annealing is an extension, and the Metropolis algorithm, a basic component of SA. The basic SA algorithm for optimization is described together with two theoretical properties that are fundamental to SA: statistical equilibrium (inspired from elementary statistical physics) and asymptotic convergence (based on Markov chain theory). The chapter surveys the following practical issues of interest to the user who wishes to implement the SA algorithm for its particular application: finite-time approximation of the theoretical SA, polynomial-time cooling, Markov-chain length, stopping criteria, and simulation-based evaluations. To illustrate these concepts, this chapter presents the straightforward application of SA to two classical and simple classical NP-hard combinatorial optimization problems: the knapsack problem and the traveling salesman problem. The overall SA methodology is then deployed in detail on a real-life application: a large-scale aircraft trajectory planning problem involving nearly 30,000 flights at the European continental scale. This exemplifies how to tackle nowadays complex problems using the simple scheme of SA by exploiting particular features of the problem, by integrating astute computer implementation within the algorithm, and by setting user-defined parameters empirically, inspired by the SA basic theory presented in this chapter.}
+      \field{booktitle}{Handbook of {{Metaheuristics}}}
+      \field{isbn}{978-3-319-91086-4}
+      \field{langid}{english}
+      \field{shorttitle}{Simulated {{Annealing}}}
+      \field{title}{Simulated {{Annealing}}: {{From Basics}} to {{Applications}}}
+      \field{urlday}{26}
+      \field{urlmonth}{5}
+      \field{urlyear}{2025}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 35}
+      \range{pages}{35}
+      \verb{doi}
+      \verb 10.1007/978-3-319-91086-4_1
+      \endverb
+      \verb{file}
+      \verb C:\Users\JAPGc\Zotero\storage\JFS2PMSB\Delahaye et al. - 2019 - Simulated Annealing From Basics to Applications.pdf
+      \endverb
+    \endentry
+    \entry{franzinRevisitingSimulatedAnnealing2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=9b064ec5c8528575405e6a91a55f5aa5}{%
+           family={Franzin},
+           familyi={F\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fe8c0dacc6efae8023b930228f5abc18}{%
+           family={Stützle},
+           familyi={S\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{83da7d5f01dd66d32dcf28313b2c02a7}
+      \strng{fullhash}{83da7d5f01dd66d32dcf28313b2c02a7}
+      \strng{fullhashraw}{83da7d5f01dd66d32dcf28313b2c02a7}
+      \strng{bibnamehash}{83da7d5f01dd66d32dcf28313b2c02a7}
+      \strng{authorbibnamehash}{83da7d5f01dd66d32dcf28313b2c02a7}
+      \strng{authornamehash}{83da7d5f01dd66d32dcf28313b2c02a7}
+      \strng{authorfullhash}{83da7d5f01dd66d32dcf28313b2c02a7}
+      \strng{authorfullhashraw}{83da7d5f01dd66d32dcf28313b2c02a7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Simulated Annealing (SA) is one of the oldest metaheuristics and has been adapted to solve many combinatorial optimization problems. Over the years, many authors have proposed both general and problem-specific improvements and variants of SA. We propose to accumulate this knowledge into automatically configurable, algorithmic frameworks so that for new applications that wealth of alternative algorithmic components is directly available for the algorithm designer without further manual intervention. Here, we describe SA as an ensemble of algorithmic components, and describe SA variants from the literature within these components. We show the advantages of our proposal by (i) implementing existing algorithmic components of variants of SA, (ii) studying SA algorithms proposed in the literature, (iii) improving SA performance by automatically designing new state-of-the-art SA implementations and (iv) studying the role and impact of the algorithmic components based on experimental data. Our experiments consider three common combinatorial optimization problems, the quadratic assignment problem and two variants of the permutation flow shop problem.}
+      \field{issn}{0305-0548}
+      \field{journaltitle}{Computers \& Operations Research}
+      \field{month}{4}
+      \field{shorttitle}{Revisiting Simulated Annealing}
+      \field{title}{Revisiting Simulated Annealing: {{A}} Component-Based Analysis}
+      \field{urlday}{18}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{104}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{191\bibrangedash 206}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.cor.2018.12.015
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\SPHPA2R5\\Franzin and Stützle - 2019 - Revisiting simulated annealing A component-based analysis.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\CDRZWF6D\\S0305054818303277.html
+      \endverb
+      \keyw{Automatic algorithm design,Experimental analysis,Metaheuristics,Simulated annealing,Stochastic local search}
+    \endentry
+    \entry{dengPopulationbasedIteratedGreedy2020}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=656a9f3bd2db66c85238473f1d2b012a}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Guanlong},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d32c5a302d2407345446e1e169d9a27b}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Qingtang},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=48d51f50245778d3b08cb0d014662931}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhiwang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=9c591e4f9fbd828b288ba464e26f09db}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Huixia},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b2fadaca899e5bf48174237f91ac80d1}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shuning},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f126d895c9e7b8a4907143847388ca98}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Tianhua},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d4c338b6699fbb8382f143a6d68fa66}
+      \strng{fullhash}{8d7cd30cfba495440cabe6f2b9665932}
+      \strng{fullhashraw}{8d7cd30cfba495440cabe6f2b9665932}
+      \strng{bibnamehash}{8d7cd30cfba495440cabe6f2b9665932}
+      \strng{authorbibnamehash}{8d7cd30cfba495440cabe6f2b9665932}
+      \strng{authornamehash}{5d4c338b6699fbb8382f143a6d68fa66}
+      \strng{authorfullhash}{8d7cd30cfba495440cabe6f2b9665932}
+      \strng{authorfullhashraw}{8d7cd30cfba495440cabe6f2b9665932}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The no-wait job shop where no waiting time is allowed between two successive operations of a job has a strong industrial background, especially in steel-making industry and concrete manufacturing. This study formulates the no-wait job shop problem with a total flow time criterion based on time difference and decomposes the problem into timetabling and sequencing subproblems. Several timetabling methods are designed for the total flow time criterion to generate a sequence timetable. By adopting favourable features of the iterated greedy algorithm, the population-based iterated greedy (PBIG) algorithm for the sequencing subproblem is proposed. The individuals in the population evolve by means of a destruction and construction perturbator and an insertion-based local search. In each iteration, a tournament selection is designed to replace a relatively worse solution. In order to generate starting solutions with a certain quality and diversity, the Nawaz--Enscore--Ham-based heuristics for flow shop scheduling are extended in no-wait job shops. In computational experiments based on well-known benchmark instances, timetabling methods are investigated, and it is shown that the left timetabling is superior to other timetabling methods for the total flow time minimisation. Computational results also show that the proposed algorithm significantly outperforms several state-of-the-art metaheuristics, and it could be applicable to practical production environment.}
+      \field{issn}{0952-1976}
+      \field{journaltitle}{Engineering Applications of Artificial Intelligence}
+      \field{month}{2}
+      \field{title}{A Population-Based Iterated Greedy Algorithm for No-Wait Job Shop Scheduling with Total Flow Time Criterion}
+      \field{urlday}{15}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{88}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{103369}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.engappai.2019.103369
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\YYDLHNDZ\\Deng et al. - 2020 - A population-based iterated greedy algorithm for no-wait job shop scheduling with total flow time cr.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\GQFGSH5Q\\S0952197619302969.html
+      \endverb
+      \keyw{Evolutionary algorithms,Flow shop,Job shop,Metaheuristics,No-wait,Scheduling}
+    \endentry
+    \entry{yingSolvingNowaitJobshop2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=d341ae2c46f5425d44526cf38db07e67}{%
+           family={Ying},
+           familyi={Y\bibinitperiod},
+           given={Kuo-Ching},
+           giveni={K\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=79feabe3b88daddb4c0e9de4778e6284}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Shih-Wei},
+           giveni={S\bibinithyphendelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9eebf51c137e04599fa11cd77555d5d}
+      \strng{fullhash}{f9eebf51c137e04599fa11cd77555d5d}
+      \strng{fullhashraw}{f9eebf51c137e04599fa11cd77555d5d}
+      \strng{bibnamehash}{f9eebf51c137e04599fa11cd77555d5d}
+      \strng{authorbibnamehash}{f9eebf51c137e04599fa11cd77555d5d}
+      \strng{authornamehash}{f9eebf51c137e04599fa11cd77555d5d}
+      \strng{authorfullhash}{f9eebf51c137e04599fa11cd77555d5d}
+      \strng{authorfullhashraw}{f9eebf51c137e04599fa11cd77555d5d}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents a multi-start simulated annealing with bi-directional shift timetabling (MSA-BST) algorithm for solving the no-wait jobshop scheduling problem (NWJSP). To enhance the quality of the solution, a bi-directional shift timetabling procedure that allows delay timetabling and consequently enlarges the search space is embedded into the multi-start simulated annealing algorithm. The performance of the proposed MSA-BST algorithm is evaluated with respect to the makespan by comparing its computational results to those of the best-to-date meta-heuristic algorithm, the hybrid artificial bee colony (HABC) algorithm, in the literature. Experimental results that were obtained by applying the proposed algorithm to a set of benchmark problems in the literature indicate that it significantly outperforms HABC. The main contribution of this study is to provide a novel and effective alternative method for solving the complex NWJSP.}
+      \field{issn}{0360-8352}
+      \field{journaltitle}{Computers \& Industrial Engineering}
+      \field{month}{8}
+      \field{title}{Solving No-Wait Job-Shop Scheduling Problems Using a Multi-Start Simulated Annealing with Bi-Directional Shift Timetabling Algorithm}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{146}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{106615}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cie.2020.106615
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\D5KZIIQM\\Ying and Lin - 2020 - Solving no-wait job-shop scheduling problems using a multi-start simulated annealing with bi-directi.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\9TIRCQLD\\S0360835220303491.html
+      \endverb
+      \keyw{Makespan,Metaheuristic,No-wait job-shop,Scheduling}
+    \endentry
+    \entry{schusterApproximativeProceduresNowait2003}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=9853fd1ffbdbe091f08f9ce43c1ea7cb}{%
+           family={Schuster},
+           familyi={S\bibinitperiod},
+           given={Christoph\bibnamedelima J},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9e5846e8e2e4705727f80612179d8f0c}{%
+           family={Framinan},
+           familyi={F\bibinitperiod},
+           given={Jose\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{26db31850300f70799f563ad7b5468c9}
+      \strng{fullhash}{26db31850300f70799f563ad7b5468c9}
+      \strng{fullhashraw}{26db31850300f70799f563ad7b5468c9}
+      \strng{bibnamehash}{26db31850300f70799f563ad7b5468c9}
+      \strng{authorbibnamehash}{26db31850300f70799f563ad7b5468c9}
+      \strng{authornamehash}{26db31850300f70799f563ad7b5468c9}
+      \strng{authorfullhash}{26db31850300f70799f563ad7b5468c9}
+      \strng{authorfullhashraw}{26db31850300f70799f563ad7b5468c9}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this article we consider the no-wait job shop problem with makespan objective. Based on a decomposition of the problem into a sequencing and a timetabling problem, we propose two local search algorithms. Extensive computational tests in which the algorithms compare favorably to the best existing strategies are reported. Although not specifically designed for that purpose, our algorithms also outperform one of the best no-wait flow shop algorithms in literature.}
+      \field{issn}{0167-6377}
+      \field{journaltitle}{Operations Research Letters}
+      \field{month}{7}
+      \field{number}{4}
+      \field{title}{Approximative Procedures for No-Wait Job Shop Scheduling}
+      \field{urlday}{15}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{31}
+      \field{year}{2003}
+      \field{urldateera}{ce}
+      \field{pages}{308\bibrangedash 318}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/S0167-6377(03)00005-1
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\TMVEB3VS\\Schuster and Framinan - 2003 - Approximative procedures for no-wait job shop scheduling.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\IK8TSMJX\\S0167637703000051.html
+      \endverb
+      \keyw{Decomposition,Flow shop,Job shop,Local search,No-wait,Scheduling}
+    \endentry
+    \entry{framinanEnhancedTimetablingProcedure2006}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=9e5846e8e2e4705727f80612179d8f0c}{%
+           family={Framinan},
+           familyi={F\bibinitperiod},
+           given={Jose\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=5488e5d3c107155bbc4f664f4b2fed2e}{%
+           family={Schuster},
+           familyi={S\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{fac7fb5e40567c19509d248a867d8edb}
+      \strng{fullhash}{fac7fb5e40567c19509d248a867d8edb}
+      \strng{fullhashraw}{fac7fb5e40567c19509d248a867d8edb}
+      \strng{bibnamehash}{fac7fb5e40567c19509d248a867d8edb}
+      \strng{authorbibnamehash}{fac7fb5e40567c19509d248a867d8edb}
+      \strng{authornamehash}{fac7fb5e40567c19509d248a867d8edb}
+      \strng{authorfullhash}{fac7fb5e40567c19509d248a867d8edb}
+      \strng{authorfullhashraw}{fac7fb5e40567c19509d248a867d8edb}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In this paper we consider the no-wait job shop problem with a makespan objective. This problem has usually been addressed by its decomposition into a sequencing and a timetabling problem. Here, first we focus on the timetabling problem and take advantage of the symmetry of the problem in order to suggest a new timetabling procedure. Secondly, we suggest embedding this timetabling into a recent metaheuristic named complete local search with memory.}
+      \field{issn}{0305-0548}
+      \field{journaltitle}{Computers \& Operations Research}
+      \field{month}{5}
+      \field{number}{5}
+      \field{shorttitle}{An Enhanced Timetabling Procedure for the No-Wait Job Shop Problem}
+      \field{title}{An Enhanced Timetabling Procedure for the No-Wait Job Shop Problem: A Complete Local Search Approach}
+      \field{urlday}{15}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{33}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \field{pages}{1200\bibrangedash 1213}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.cor.2004.09.009
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\X6F7XZZM\\Framinan and Schuster - 2006 - An enhanced timetabling procedure for the no-wait job shop problem a complete local search approach.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\7PBMHJ28\\S0305054804002321.html
+      \endverb
+    \endentry
+    \entry{sundarHybridArtificialBee2017}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=a8ba36df09df0b53277de9143fea4688}{%
+           family={Sundar},
+           familyi={S\bibinitperiod},
+           given={Shyam},
+           giveni={S\bibinitperiod}}}%
+        {{hash=015b0ef0b32eaa3e88bbac7ced21bb76}{%
+           family={Suganthan},
+           familyi={S\bibinitperiod},
+           given={P.\bibnamedelimi N.},
+           giveni={P\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=f5d72cde2ba92adaedc0d4871259001e}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Chua\bibnamedelima Tay},
+           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=21d5991d7918e406b3790870a7e5dc0b}{%
+           family={Xiang},
+           familyi={X\bibinitperiod},
+           given={Cai\bibnamedelima Tian},
+           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=69c85dcbcf834b859ab7a37287c2593e}{%
+           family={Soon},
+           familyi={S\bibinitperiod},
+           given={Chong\bibnamedelima Chin},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{3e885fc9eed21e003ec054e42b42d9e6}
+      \strng{fullhash}{3ebdb190b61901247d8361940f01ae28}
+      \strng{fullhashraw}{3ebdb190b61901247d8361940f01ae28}
+      \strng{bibnamehash}{3ebdb190b61901247d8361940f01ae28}
+      \strng{authorbibnamehash}{3ebdb190b61901247d8361940f01ae28}
+      \strng{authornamehash}{3e885fc9eed21e003ec054e42b42d9e6}
+      \strng{authorfullhash}{3ebdb190b61901247d8361940f01ae28}
+      \strng{authorfullhashraw}{3ebdb190b61901247d8361940f01ae28}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper studies a hybrid artificial bee colony (ABC) algorithm for finding high quality solutions of the job-shop scheduling problem with no-wait constraint (JSPNW) with the objective of minimizing makespan among all the jobs. JSPNW is an extension of well-known job-shop scheduling problem subject to the constraint that no waiting time is allowed between operations for a given job. ABC algorithm is a swarm intelligence technique based on intelligent foraging behavior of honey bee swarm. The proposed hybrid approach effectively coordinates the various components of ABC algorithm such as solution initialization, selection and determination of a neighboring solution with the local search in such a way that it leads to high quality solutions for the JSPNW. The proposed approach is compared with the two best approaches in the literature on a set of benchmark instances. Computational results show the superiority of the proposed approach over these two best approaches.}
+      \field{issn}{1433-7479}
+      \field{journaltitle}{Soft Computing}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{5}
+      \field{title}{A Hybrid Artificial Bee Colony Algorithm for the Job-Shop Scheduling Problem with No-Wait Constraint}
+      \field{urlday}{1}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{21}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{1193\bibrangedash 1202}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/s00500-015-1852-9
+      \endverb
+      \verb{file}
+      \verb C:\Users\JAPGc\Zotero\storage\BKKNDLZV\Sundar et al. - 2017 - A hybrid artificial bee colony algorithm for the job-shop scheduling problem with no-wait constraint.pdf
+      \endverb
+      \keyw{Artificial bee colony algorithm,Job-shop,No-wait,Scheduling,Swarm intelligence}
+    \endentry
+    \entry{sprattRealtimeReactiveFramework2021a}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=ba7a98c03022f531d20da5f79e4c12bb}{%
+           family={Spratt},
+           familyi={S\bibinitperiod},
+           given={Belinda},
+           giveni={B\bibinitperiod}}}%
+        {{hash=df8cc5d81b205a391d6413044ad409ba}{%
+           family={Kozan},
+           familyi={K\bibinitperiod},
+           given={Erhan},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{c9c18bd73e3bb2101c692284ef1eab8d}
+      \strng{fullhash}{c9c18bd73e3bb2101c692284ef1eab8d}
+      \strng{fullhashraw}{c9c18bd73e3bb2101c692284ef1eab8d}
+      \strng{bibnamehash}{c9c18bd73e3bb2101c692284ef1eab8d}
+      \strng{authorbibnamehash}{c9c18bd73e3bb2101c692284ef1eab8d}
+      \strng{authornamehash}{c9c18bd73e3bb2101c692284ef1eab8d}
+      \strng{authorfullhash}{c9c18bd73e3bb2101c692284ef1eab8d}
+      \strng{authorfullhashraw}{c9c18bd73e3bb2101c692284ef1eab8d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, we address the multiple operating room (OR) surgical case sequencing problem (SCSP). The objective is to maximise total OR utilisation during standard opening hours. This work uses a case study of a large Australian public hospital with long surgical waiting lists and high levels of non-elective demand. Due to the complexity of the SCSP and the size of the instances considered herein, heuristic techniques are required to solve the problem. We present constructive heuristics based on both a modified block scheduling policy and an open scheduling policy. A number of real-time reactive strategies are presented that can be used to maintain schedule feasibility in the case of disruptions. Results of computational experiments show that this approach maintains schedule feasibility in real-time, whilst increasing operating theatre (OT) utilisation and throughput, and reducing the waiting time of non-elective patients. The framework presented here is applicable to the real-life scheduling of OT departments, and we provide recommendations regarding implementation of the approach.}
+      \field{issn}{1936-6590}
+      \field{journaltitle}{Flexible Services and Manufacturing Journal}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{A Real-Time Reactive Framework for the Surgical Case Sequencing Problem}
+      \field{urlday}{24}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{33}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{183\bibrangedash 211}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1007/s10696-019-09371-6
+      \endverb
+      \verb{file}
+      \verb C:\Users\JAPGc\Zotero\storage\5T4T3EKM\Spratt and Kozan - 2021 - A real-time reactive framework for the surgical case sequencing problem.pdf
+      \endverb
+      \keyw{Operating theatres,Operations research in health services,Patient sequencing,Reactive scheduling}
+    \endentry
+    \entry{aschauerEfficientSchedulingStochastic2020}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=c325d854f61f8186303407639fa443b1}{%
+           family={Aschauer},
+           familyi={A\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=25cf60d297a4376aab0f4862d2ad95c0}{%
+           family={Roetzer},
+           familyi={R\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5c28553f1a255f8ed0466ab19f71b75f}{%
+           family={Steinboeck},
+           familyi={S\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=13a627198d72d4892b7864c3e5092c74}{%
+           family={Kugi},
+           familyi={K\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{beb3adbb12dd519b006fbff4ce3af14f}
+      \strng{fullhash}{6606ba17bf762148027799392f1dff27}
+      \strng{fullhashraw}{6606ba17bf762148027799392f1dff27}
+      \strng{bibnamehash}{6606ba17bf762148027799392f1dff27}
+      \strng{authorbibnamehash}{6606ba17bf762148027799392f1dff27}
+      \strng{authornamehash}{beb3adbb12dd519b006fbff4ce3af14f}
+      \strng{authorfullhash}{6606ba17bf762148027799392f1dff27}
+      \strng{authorfullhashraw}{6606ba17bf762148027799392f1dff27}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This work derives a novel effective and efficient algorithm for a stochastic no-wait job-shop scheduling problem with controllable processing times. Some of the processing times are stochastic and the proposed solution effectively minimizes the makespan and increases the robustness of the makespan against deviating processing times. Therefore, a no-wait job shop with controllable deterministic processing times is solved by a decomposition into timetabling and sequencing. During timetabling, extra safety margins are added to the scheduled processing times without delaying jobs. In the sequence optimization subproblem, an extra penalty term is added to the cost function which punishes uncertain tasks at positions that have an impact on the makespan. Simulation results based on real plant data and tailor-made benchmark problems show that these measures can reduce the standard deviation of the makespan dramatically. This significantly improves the prediction accuracy of the scheduling method.}
+      \field{issn}{0957-4174}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{month}{12}
+      \field{title}{Efficient Scheduling of a Stochastic No-Wait Job Shop with Controllable Processing Times}
+      \field{urlday}{11}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{162}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{113879}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.eswa.2020.113879
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\C6FPNM24\\Aschauer et al. - 2020 - Efficient scheduling of a stochastic no-wait job shop with controllable processing times.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\68H75PW6\\S0957417420306849.html;C\:\\Users\\JAPGc\\Zotero\\storage\\FMD5DB78\\S0957417420306849.html
+      \endverb
+      \keyw{Controllable processing times,Dynamic tabu list,No-wait job shop,Recursive timetabling,Stochastic scheduling,Tabu search}
+    \endentry
+    \entry{mosheiovMinimizingTotalLate2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f8b9de204bc5d47cefd390446ed3a705}{%
+           family={Mosheiov},
+           familyi={M\bibinitperiod},
+           given={Gur},
+           giveni={G\bibinitperiod}}}%
+        {{hash=bd84ad4eaa23e9cc1744b868ccab09c5}{%
+           family={Oron},
+           familyi={O\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f3c9fe0cdeb3996f9a975eb2e34739ca}{%
+           family={Shabtay},
+           familyi={S\bibinitperiod},
+           given={Dvir},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{a773a48d8826e2ab921c49021255f859}
+      \strng{fullhash}{26e31ebe461817dffb576c8eb62ac5e6}
+      \strng{fullhashraw}{26e31ebe461817dffb576c8eb62ac5e6}
+      \strng{bibnamehash}{26e31ebe461817dffb576c8eb62ac5e6}
+      \strng{authorbibnamehash}{26e31ebe461817dffb576c8eb62ac5e6}
+      \strng{authornamehash}{a773a48d8826e2ab921c49021255f859}
+      \strng{authorfullhash}{26e31ebe461817dffb576c8eb62ac5e6}
+      \strng{authorfullhashraw}{26e31ebe461817dffb576c8eb62ac5e6}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We study single machine scheduling problems with generalized due-dates. The scheduling measure is minimum total late work. We show that unlike the classical version (assuming job-specific due-dates), this problem has a polynomial time solution. Then, the problem is extended to allow job rejection. First, an upper bound on the total permitted rejection cost is assumed. Then we study the setting whereby the rejection cost is part of the objective function, which becomes minimizing the sum of total late work and rejection cost. We prove that both versions are NP-hard, and introduce pseudo-polynomial dynamic programming solution algorithms. We then consider a setting in which the machine is not available for some period (e.g., due to maintenance). Again, a pseudo-polynomial dynamic programming is introduced for the (NP-hard) problem of minimizing total late work with generalized due-dates and unavailability period. These dynamic programming algorithms are tested numerically, and proved to perform well on problems of various input parameters. Then, the extension to the weighted case, i.e., the problem of minimizing total weighted late work with generalized due-dates is proved to be NP-hard. Finally, we study a slightly different setting, in which the given due-dates are assigned to jobs, but there is no restriction on their order, i.e., the j-th due-date is not necessarily assigned to the j-th job in the sequence. We show that this problem (known as scheduling assignable due-dates) to minimize total late work is NP-hard as well.}
+      \field{issn}{0377-2217}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{Minimizing Total Late Work on a Single Machine with Generalized Due-Dates}
+      \field{urlday}{25}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{293}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{837\bibrangedash 846}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.ejor.2020.12.061
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\E4YSGTHJ\\Mosheiov et al. - 2021 - Minimizing total late work on a single machine with generalized due-dates.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\LHVJP68W\\S0377221720311231.html
+      \endverb
+      \keyw{Generalized due-dates,Job rejection,Scheduling,Single machine,Total late work,Unavailability period}
+    \endentry
+    \entry{dengTotalFlowTime2019}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=656a9f3bd2db66c85238473f1d2b012a}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Guanlong},
+           giveni={G\bibinitperiod}}}%
+        {{hash=48d51f50245778d3b08cb0d014662931}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhiwang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=f126d895c9e7b8a4907143847388ca98}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Tianhua},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b2fadaca899e5bf48174237f91ac80d1}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Shuning},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d4c338b6699fbb8382f143a6d68fa66}
+      \strng{fullhash}{73564239533a92d94046ffa07fbcbe33}
+      \strng{fullhashraw}{73564239533a92d94046ffa07fbcbe33}
+      \strng{bibnamehash}{73564239533a92d94046ffa07fbcbe33}
+      \strng{authorbibnamehash}{73564239533a92d94046ffa07fbcbe33}
+      \strng{authornamehash}{5d4c338b6699fbb8382f143a6d68fa66}
+      \strng{authorfullhash}{73564239533a92d94046ffa07fbcbe33}
+      \strng{authorfullhashraw}{73564239533a92d94046ffa07fbcbe33}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The no-wait job shop scheduling problem is a well-known NP-hard problem and it is typically decomposed into timetabling subproblem and sequencing subproblem. By adopting favorable features of the group search technique, a hybrid discrete group search optimizer is proposed for finding high quality schedules in the no-wait job shops with the total flow time criterion. In order to find more promising sequences, the producer operator is designed as a destruction and construction (DC) procedure and an insertion-based local search, the scrounger operator is implemented by differential evolution scheme, and the ranger operator is designed by hybridizing best insert moves. An efficient initialization scheme based on Nawaz--Enscore--Ham (NEH) heuristic is designed to construct the initial population with both quality and diversity. A speed-up method is developed to accelerate the evaluation of the insertion neighborhood. Computational results based on well-known benchmark instances show that the proposed algorithm clearly outperforms a hybrid differential evolution algorithm and an iterated greedy algorithm. In addition, the proposed algorithm is comparable to a local search method based on optimal job insertion, especially for large-size instances.}
+      \field{issn}{1568-4946}
+      \field{journaltitle}{Applied Soft Computing}
+      \field{month}{8}
+      \field{title}{Total Flow Time Minimization in No-Wait Job Shop Using a Hybrid Discrete Group Search Optimizer}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2025}
+      \field{volume}{81}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{105480}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.asoc.2019.05.007
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\JAPGc\\Zotero\\storage\\4TRWP9E7\\Deng et al. - 2019 - Total flow time minimization in no-wait job shop using a hybrid discrete group search optimizer.pdf;C\:\\Users\\JAPGc\\Zotero\\storage\\GCQWISU9\\S1568494619302509.html
+      \endverb
+      \keyw{Group search,Job shop,Metaheuristics,No-wait,Scheduling}
+    \endentry
+  \enddatalist
+\endrefsection
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{novathesis-manual}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=419e7851ce9e726652864635d63207af}{%
+           family={Lourenço},
+           familyi={L\bibinitperiod},
+           given={João\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {NOVA University Lisbon}%
+      }
+      \strng{namehash}{419e7851ce9e726652864635d63207af}
+      \strng{fullhash}{419e7851ce9e726652864635d63207af}
+      \strng{fullhashraw}{419e7851ce9e726652864635d63207af}
+      \strng{bibnamehash}{419e7851ce9e726652864635d63207af}
+      \strng{authorbibnamehash}{419e7851ce9e726652864635d63207af}
+      \strng{authornamehash}{419e7851ce9e726652864635d63207af}
+      \strng{authorfullhash}{419e7851ce9e726652864635d63207af}
+      \strng{authorfullhashraw}{419e7851ce9e726652864635d63207af}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{The NOVAthesis \LaTeX{} Template User's Manual}}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://github.com/joaomlourenco/novathesis/raw/main/template.pdf
+      \endverb
+      \verb{url}
+      \verb https://github.com/joaomlourenco/novathesis/raw/main/template.pdf
+      \endverb
+      \keyw{novathesis-manual}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

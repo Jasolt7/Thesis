@@ -1,0 +1,60 @@
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {portuguese}{}\relax 
+\contentsline {chapter}{Índice de Figuras}{vi}{section*.4}%
+\contentsline {chapter}{List of Algorithms}{x}{chapter*.5}%
+\contentsline {chapter}{\chapternumberline {1}Introdução}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Motivação e Contexto}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Apresentação do Problema e Objetivo}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Abordagem Metodológica}{2}{section.1.3}%
+\contentsline {chapter}{\chapternumberline {2}Base Teórica e Revisão de Literatura}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Extensões, Restrições, e Critérios}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Abordagens para a Resolução}{4}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Algoritmos Exatos}{4}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Heurísticas}{5}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Meta-Heurísticas}{5}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Abordagens para a Resolução}{7}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Algoritmos Exatos}{7}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Heurísticas}{8}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Meta-Heurísticas}{9}{subsection.2.3.3}%
+\contentsline {chapter}{\chapternumberline {3}Mapeamento dos Exames}{10}{chapter.3}%
+\contentsline {chapter}{\chapternumberline {4}Desenvolvimento dos Modelos}{14}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Problema de \textit {Makespan}}{14}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Modelo 1}{17}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Modelo 2}{22}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Modelo 3}{25}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Problema do número de trabalhos}{29}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Modelo 1}{31}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Modelo 2}{33}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Modelo 3}{36}{subsection.4.2.3}%
+\contentsline {chapter}{\chapternumberline {5}Resultados e Discussão}{39}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Problema de \textit {Makespan}}{39}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Modelo 1}{40}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Modelo 2}{42}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Modelo 3}{44}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Comparação entre modelos}{45}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}Comparação com instâncias de \textit {benchmark}}{47}{subsection.5.1.5}%
+\contentsline {section}{\numberline {5.2}Problema do número de trabalhos}{52}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Modelo 1}{52}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Modelo 2}{54}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Modelo 3}{56}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Comparação entre modelos}{57}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Comparação com instâncias de \textit {benchmark}}{59}{subsection.5.2.5}%
+\contentsline {section}{\numberline {5.3}Discussão}{63}{section.5.3}%
+\contentsline {chapter}{\chapternumberline {6}Conclusão}{66}{chapter.6}%
+\contentsline {chapter}{Bibliografia}{67}{section*.26}%
+\contentsline {chapter}{Apêndices}{}{}
+\contentsline {appendix}{\chapternumberline {A}Tabelas}{73}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Problema de \textit {Makespan}}{73}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Problema do número de trabalhos}{86}{section.A.2}%
+\contentsline {appendix}{\chapternumberline {B}Imagens}{98}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Problema de \textit {Makespan}}{99}{section.B.1}%
+\contentsline {section}{\numberline {B.2}Problema do número de trabalhos}{104}{section.B.2}%
+\contentsline {appendix}{\chapternumberline {C}Algoritmos}{106}{appendix.C}%
+\contentsline {section}{\numberline {C.1}Problema de \textit {Makespan}}{106}{section.C.1}%
+\contentsline {section}{\numberline {C.2}Problema do número de trabalhos}{113}{section.C.2}%

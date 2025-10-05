@@ -1,0 +1,28 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'template.blg'
+[113] biber-MSWIN64:340> INFO - === 
+[148] Biber.pm:420> INFO - Reading 'template.bcf'
+[258] Biber.pm:994> INFO - Found 47 citekeys in bib section 0
+[258] Biber.pm:994> INFO - Found 1 citekeys in bib section 1
+[258] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[275] Biber.pm:4463> INFO - Processing section 0
+[285] Biber.pm:4654> INFO - Looking for bibtex file 'Bibliography/bibliography.bib' for section 0
+[375] bibtex.pm:1713> INFO - LaTeX decoding ...
+[716] bibtex.pm:1519> INFO - Found BibTeX data source 'Bibliography/bibliography.bib'
+[980] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[980] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[980] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'pt-PT'
+[980] Biber.pm:4289> INFO - No sort tailoring available for locale 'pt-PT'
+[1004] Biber.pm:4463> INFO - Processing section 1
+[1004] Biber.pm:4654> INFO - Looking for bibtex file 'Bibliography/bibliography.bib' for section 1
+[1034] Biber.pm:4654> INFO - Looking for bibtex file './NOVAthesisFiles/fix-bib.bib' for section 1
+[1127] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1344] bibtex.pm:1519> INFO - Found BibTeX data source './NOVAthesisFiles/fix-bib.bib'
+[1354] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1354] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1354] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'pt-PT'
+[1354] Biber.pm:4289> INFO - No sort tailoring available for locale 'pt-PT'
+[1359] bbl.pm:676> INFO - Writing 'template.bbl' with encoding 'UTF-8'
+[1395] bbl.pm:779> INFO - Output to template.bbl
+[1396] Biber.pm:131> WARN - Duplicate entry key: 'saudeERSTemposMaximos' in file 'Bibliography/bibliography.bib', skipping ...
+[1396] Biber.pm:133> INFO - WARNINGS: 1
