@@ -1,0 +1,218 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Oct 10 22:58:14 2025
+
+@author: JAPGc
+"""
+
+import numpy as np
+from numpy.random import SeedSequence
+import matplotlib.pyplot as plt
+from joblib import Parallel, delayed
+import time
+from numba import njit
+import cProfile
+import pstats
+from line_profiler import LineProfiler
+from functools import lru_cache
+
+def plot_warehouse_path(Sequence, max_rows, max_cols, Lk, freeze_crit, temp_red, ratio, cost, show_crow):
+    plt.figure(figsize=(7, 7))
+    
+    Sequence = [(0,0)] + Sequence + [(0,0)]
+
+    # expand limits slightly to see all lines clearly
+    plt.xlim(-0.5, max_cols + 0.5)
+    plt.ylim(-0.5, max_rows + 0.5)
+    plt.gca().invert_yaxis()  # top-down layout like a floor plan
+
+    # grid lines
+    for i in range(max_rows + 2):
+        plt.axhline(i - 0.5, color='lightgray', linewidth=0.6)
+    for j in range(max_cols + 2):
+        plt.axvline(j - 0.5, color='lightgray', linewidth=0.6)
+
+    # main walking path (columns-only)
+    for i in range(len(Sequence) - 1):
+        x1, y1 = Sequence[i]
+        x2, y2 = Sequence[i + 1]
+
+        # columns-only movement
+        if x1 != x2:
+            y_mid = 0 if (y1 + y2) < max_rows else max_rows
+            plt.plot([x1, x1], [y1, y_mid], 'b--', alpha=0.7)
+            plt.plot([x1, x2], [y_mid, y_mid], 'b--', alpha=0.7)
+            plt.plot([x2, x2], [y_mid, y2], 'b--', alpha=0.7)
+        else:
+            plt.plot([x1, x2], [y1, y2], 'b--', alpha=0.7)
+
+        # as-the-crow-flies (optional)
+        if show_crow:
+            plt.plot([x1, x2], [y1, y2], 'r-', alpha=0.4, linewidth=1.2)
+
+        # pick points
+        plt.scatter(x1, y1, color='red', s=50, zorder=5)
+        plt.text(x1 + 0.1, y1 - 0.2, f'{i}', fontsize=9)
+
+    # last point
+    x_last, y_last = Sequence[-1]
+    plt.scatter(x_last, y_last, color='green', s=60, zorder=5)
+    plt.text(x_last + 0.1, y_last - 0.2, f'{len(Sequence)-1}', fontsize=9)
+
+    plt.title(f"Warehouse Path\nBlue: Walking Path | Red: As-the-Crow-Flies\nLk={Lk}, freeze_crit={freeze_crit}, temp_red={temp_red}, ratio={ratio}, cost={cost}")
+    plt.xlabel("Columns (x)")
+    plt.ylabel("Rows (y)")
+    plt.grid(False)
+    plt.show()
+
+def deep_copy(*arrays):
+    # Returns copies of all passed arrays.
+    return [a.copy() for a in arrays]
+
+def distance_func(p1, p2, max_rows):
+    x1, y1 = p1
+    x2, y2 = p2
+
+    h_dist = abs(x1 - x2)
+    if h_dist != 0:
+        v_dist = min((2*max_rows) - y1 - y2, (y1 + y2))
+    else:
+        v_dist = abs(y1 - y2)
+
+    return h_dist + v_dist
+
+@lru_cache(maxsize=None)
+def get_distance(p1, p2, max_rows):
+    return distance_func(p1, p2, max_rows)
+
+def cost_func(Sequence, max_rows):
+    dist = 0
+    p1 = (0, 0)
+    for seq in Sequence:
+        p2 = seq
+        dist += get_distance(p1, p2, max_rows)
+        p1 = p2
+    dist += get_distance(p1, (0, 0), max_rows)
+    return dist
+
+def sa_iteration(Sequence, c, Lk):
+    Sequence_best = Sequence.copy()
+    current_cost = cost_func(Sequence, max_rows)
+    best_cost = current_cost
+        
+    i_it = (np.random.rand(Lk, 2)*len(Sequence)).astype(int)
+    q_it = np.random.rand(Lk)
+    
+    average_dif = 0
+    neighbour = np.random.choice(3, size=Lk)
+    
+    for it in range(Lk):
+        i_st = i_it[it, 0]
+        i_nd = i_it[it, 1]
+        while i_st == i_nd:
+            i_nd = np.random.choice(len(Sequence))  
+            
+        if neighbour[it] == 0:   
+            holder = Sequence[i_st]
+            Sequence[i_st] = Sequence[i_nd]
+            Sequence[i_nd] = holder
+            
+        elif neighbour[it] == 1:
+            holder = Sequence.pop(i_st)
+            Sequence.insert(i_nd, holder)
+        
+        elif neighbour[it] == 2:
+            i_st, i_nd = sorted([i_st, i_nd])
+            Sequence[i_st:i_nd+1] = reversed(Sequence[i_st:i_nd+1])
+        
+        alt_cost = cost_func(Sequence, max_rows)
+        average_dif = average_dif + np.abs((current_cost - alt_cost))
+
+        # Acceptance criterion of the SA algorithm.
+        if alt_cost < current_cost or q_it[it] < 2.718281828459045**((current_cost - alt_cost) / c):
+            current_cost = alt_cost
+            if current_cost < best_cost:
+                best_cost = current_cost
+                Sequence_best = Sequence.copy()
+
+        else:
+            if neighbour[it] == 0:
+                holder = Sequence[i_st]
+                Sequence[i_st] = Sequence[i_nd]
+                Sequence[i_nd] = holder
+            elif neighbour[it] == 1:
+                holder = Sequence.pop(i_nd)
+                Sequence.insert(i_st, holder)
+            elif neighbour[it] == 2:
+                Sequence[i_st:i_nd+1] = reversed(Sequence[i_st:i_nd+1])
+        
+    return Sequence, current_cost, Sequence_best, best_cost, average_dif
+
+def initial_temp(max_rows, max_cols, seed, Lk, ratio):
+    np.random.seed(seed)
+    coords = np.array([(r, c) for r in range(max_rows) for c in range(max_cols)])
+    idx = np.random.choice(len(coords), size=100, replace=False)
+    Sequence = [(49, 12),(22, 7),(25, 60),(39, 2),(37, 15),(99, 95),
+    (40, 80),(77, 24),(76, 32),(31, 43),(34, 13),(35, 59),(14, 97),
+    (97, 8),(90, 29),(55, 23),(31, 51),(88, 4),(67, 26),(39, 67),
+    (50, 78),(52, 36),(92, 11),(57, 16),(66, 1)]
+    
+    _ ,_ , _, _, average_dif = sa_iteration(Sequence, float("inf"), Lk)
+    print(average_dif)
+
+    c_in = np.abs((average_dif/Lk)/np.log(ratio))
+    return c_in
+
+def SA(max_rows, max_cols, c_in, seed, Lk, freeze_crit, temp_red, ratio):
+    np.random.seed(seed)
+    start_time = time.time()
+    
+    coords = np.array([(r, c) for r in range(max_rows) for c in range(max_cols)])
+    idx = np.random.choice(len(coords), size=100, replace=False)
+    Sequence = [tuple(coords[i]) for i in idx]
+    Sequence = [(49, 12),(22, 7),(25, 60),(39, 2),(37, 15),(99, 95),
+    (40, 80),(77, 24),(76, 32),(31, 43),(34, 13),(35, 59),(14, 97),
+    (97, 8),(90, 29),(55, 23),(31, 51),(88, 4),(67, 26),(39, 67),
+    (50, 78),(52, 36),(92, 11),(57, 16),(66, 1)]
+    
+    c = c_in
+    best_cost = float('inf')
+    
+    freeze = 0
+
+    while freeze < freeze_crit:
+
+        Sequence ,_ , newSequence, new_cost, _ = sa_iteration(Sequence, c, Lk)
+        if new_cost < best_cost:
+            bestSequence = deep_copy(newSequence)
+            best_cost = new_cost
+            freeze = 0
+        else:
+            freeze += 1
+            
+        c *= temp_red
+        if c < 9.608478221092565e-100:
+            c = 9.608478221092565e-100
+        print(c, best_cost)
+    
+    end_time = time.time() - start_time
+
+    return bestSequence[0], best_cost, end_time
+
+seed = 50
+np.random.seed(seed)  # Global seed
+
+max_rows = 100
+max_cols = 100
+Lk = 10 * (max_rows * max_cols)
+freeze_crit = 10
+temp_red = 0.8
+ratio = 0.5
+
+c_in = initial_temp(max_rows, max_cols, seed, Lk, ratio)
+print(c_in)
+
+bestSequence, best_cost, end_time = SA(max_rows, max_cols, c_in, seed, Lk, freeze_crit, temp_red, ratio)
+print(bestSequence, best_cost, end_time)
+
+plot_warehouse_path(bestSequence, max_rows, max_cols, Lk, freeze_crit, temp_red, ratio, best_cost, True)
