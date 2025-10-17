@@ -22,23 +22,16 @@ struct Item {
 using Sequence_vec = std::vector<Item>;
 using coord = std::vector<int>;
 
-int distance_func(int x1, int y1, int x2, int y2, int max_rows) {
-    int v_dist = 10000000;
+inline int distance_func(int x1, int y1, int x2, int y2, int max_rows) {
+    int v_dist;
     int h_dist = std::abs(x1 - x2);
-    int hallway[] = {0, max_rows};
-    
+
+    int sum = y1 + y2;
+    int mirror = (2*max_rows) - sum;
+
     if (h_dist != 0) {
-        // for (int h : hallway) {
-        //     int dist_via_hall = std::abs(h - y1) + std::abs(h - y2);
-        //     if (dist_via_hall < v_dist) {
-        //         v_dist = dist_via_hall;
-        //     }
-        // }
-        if ((2*max_rows) - y1 - y2 > (y1 + y2)) {
-            v_dist = y1 + y2;
-        } else {
-            v_dist = (2*max_rows) - y1 - y2;
-        }
+        v_dist = mirror > sum? sum : mirror;
+
     } else {
         v_dist = std::abs(y1 - y2);
     }
@@ -55,22 +48,19 @@ int cost_func(const Sequence_vec& Sequence, int n, int max_rows) {
     int x1 = c_x, x2;
     int y1 = y_x, y2;
     int over_wei = 0;
-
+    int w;
+    
     for (int i = 0; i < n; i++) {
         x2 = Sequence[i].x;
         y2 = Sequence[i].y;
+        w = Sequence[i].w;
 
-        if (x2 == c_x && y2 == y_x) {
+        if (x2 == c_x && y2 == y_x)
             current_storage = 0;
-            over_wei = 0;
+        else
+            current_storage += w;
 
-        } else {
-            current_storage += Sequence[i].w;
-
-            if (current_storage > max_storage) {
-                over_wei = 10*(current_storage - max_storage);
-            }
-        }
+        over_wei = current_storage < max_storage? 0 : 10*(current_storage - max_storage);
 
         dist += distance_func(x1, y1, x2, y2, max_rows) + over_wei;
         x1 = x2;

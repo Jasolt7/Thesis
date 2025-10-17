@@ -292,11 +292,11 @@ int main() {
         Sequence.push_back({x, y, 0});
     }
 
-    for (int i = 0; i < Sequence.size(); i++) {
-        printf("(%d, %d, %d),", Sequence[i].x, Sequence[i].y, Sequence[i].w);
-    }
+    //for (int i = 0; i < Sequence.size(); i++) {
+    //    printf("(%d, %d, %d),", Sequence[i].x, Sequence[i].y, Sequence[i].w);
+    //}
 
-    int Lk = 10 * (n * (n - 1) / 2);
+    int Lk = 1000 * (n * (n - 1) / 2);
     int freeze_crit = 25;
     float cooling_rate = 0.8f;
     float ratio = 0.5f;
@@ -306,7 +306,7 @@ int main() {
     float cost_avg = 0;
     float time_avg = 0;
 
-    for (int k = 0; k < 5; k++) {
+    for (int k = 0; k < 1; k++) {
         SARuns run = SA(Sequence, n, k, max_rows, max_cols, c_in, Lk, cooling_rate, freeze_crit);
         cost_avg += run.best_cost;
         time_avg += run.time;
@@ -317,5 +317,5 @@ int main() {
         printf("\n[%d, %.3f, %d],", run.best_cost, run.time, k);
     }
     printf("\n");
-    printf("\n[%f, %f],", cost_avg/5, time_avg/5);
+    printf("\n[%f, %f],", cost_avg/1, time_avg/1);
 }
